@@ -2,5 +2,5 @@
 description: Let's explain Cubbles ...
 ---
 
-# Welcome
+# Cubbles
 
