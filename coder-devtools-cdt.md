@@ -1,4 +1,7 @@
+---
+description: This section is about the documentaion of the cubbles runtime extension.
+---
+
 # Coder devtools - CDT
 
-_This section is about the documentation of the cubbles coder devtools \(**CDT**\)._
 

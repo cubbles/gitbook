@@ -1,4 +1,7 @@
-# Runtime Extension - RTE
+---
+description: This section is about the documentaion of the cubbles runtime extension.
+---
 
-_This section is about the documentaion of the cubbles runtime extension \(**RTE**\)._
+
+# Runtime Extension - RTE
 
