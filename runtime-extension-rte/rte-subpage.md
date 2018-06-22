@@ -1,2 +1,0 @@
-# RTE subpage
-
