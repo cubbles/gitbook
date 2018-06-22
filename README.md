@@ -1,5 +1,3 @@
-# Table of contents
+# Cubbles Documentation
 
-* [Runtime Extension - RTE](rte/RTE.md)
-* [Coder devtools - CDT](cdt/CDT.md)
-
+Learn how to build and use cubbles components.
