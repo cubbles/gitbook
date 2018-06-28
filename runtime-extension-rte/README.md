@@ -14,6 +14,10 @@ __The RTE/CRC__ (Client Runtime Container)
 
 __Now the RTE/CIF__ (Component Interaction Framework)
 
-- waits for the ressources to be available,
+- waits for the ressources to be available
 - creates the component instances (aka "cubbles") and
 - initialises each cubble with values provided by the developer.
+
+You wan't to use Cubbles on your website? Follow the [User Guide](user-guide/README.md).
+
+You wan't to contribute to Cubbles Open Source Project or get know the Cubbles technology in detail? Follow the [Contributor Guide](contributor-guide/README.md).
