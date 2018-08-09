@@ -18,7 +18,7 @@ In the following sections we will describe the manifest file in a general way. I
 
 An example of a `manifes.webpackage` file is presented below:
 
-```json
+```js
 {
   "name": "my-webpackage",
   "version": "1.0",
@@ -126,11 +126,11 @@ The `artifacts` property of the manifest is an object containing the definition 
 
 An example of a compoundComponent definition is presented below:
 
-``` json
+``` js
 {
-  ...
+  // ...
   "artifacts": {
-    ...
+    // ...
     "compoundComponents": [
         {
             "artifactId": "compound-component",
@@ -187,6 +187,6 @@ An example of a compoundComponent definition is presented below:
              ]
         }
     ],
-    ...
+    // ...
 }
 ```

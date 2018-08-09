@@ -12,7 +12,7 @@ Each artifact may contain any number of **resources** (js, css, json etc. -files
 
 Artifacts are defined using JSON syntax under the `"artifacts"` property on the top-level of the `manifest.webpackage` file:
 
-```json
+```js
 {
   "name": "the-unique-name-of-my-webpackage",
   "version": "1.0.0",
