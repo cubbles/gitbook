@@ -83,13 +83,12 @@ An example of a `manifes.webpackage` file is presented below:
 
 The required properties of a manifest file are:
 
-
 | Property     | Observation                                                                                                                                                                            |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | version      | Version number of the webpackage. Use -SNAPSHOT suffix for work in progress, e.g., 1.0.0, 6.0.1-SNAPSHOT                                                                               |
 | name         | The name of the webpackage                                                                                                                                                             |
 | modelVersion | Version of the webpackage specification                                                                                                                                                |
-| license      | License name. For recommended values see https://spdx.org/licenses/                                                                                                                    |
+| license      | License name. For recommended values see [this](https://spdx.org/licenses/)                                                                                                                    |
 | groupId      | A namespace for the webpackage (e.g. org.example). It may also be ""                                                                                                                   |
 | docType      | Type of this document (it must be "webpackage")                                                                                                                                        |
 | author       | The author of this webpackage                                                                                                                                                          |
@@ -109,7 +108,6 @@ The required properties of a manifest file are:
 ### The artifacts property
 
 The `artifacts` property of the manifest is an object containing the definition of each app, compound component, elementary component and utility that belongs to the webpackage (Check [this](../artifacts/README.md) for more information). Below we provide a brief description of the properties used for defining an artifact within a manifest.
-
 
 | Property           | Observation                                                                                                                                                                                                                          | apps         | compoundComponents | compoundComponents | utils        |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------ | ------------------ | ------------ |
