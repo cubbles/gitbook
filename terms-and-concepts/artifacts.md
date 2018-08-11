@@ -1,18 +1,18 @@
 # Artifacts
 
-A [Webpackage](../webpackage/README.md) contains at least a `manifest.webpackage` file and an arbitrary number of **artifacts**. An artifact can be one of the following:
+A [Webpackage](webpackage.md) contains at least a `manifest.webpackage` file and an arbitrary number of **artifacts**. An artifact can be one of the following:
 
 * **Apps** can be used to provide complete html documents - containing a more or less sophisticated web application. Keep in mind that Cubbles has its main focus on components - to be used in 3rd party web applications.
-* With **components** we make a difference between elementary components (aka "elementaries") and compound components (aka "compounds". Both are different types of artifacts and described in different sections of the `manifest.webpackage`.
-* **Utilities** are artifacts to wrap any kind of resource, that can be used by components (or apps). Use utilities to provide js functionality (simple functions or complete libraries), styles etc. That is, anything that might be used by more than one other artifact.
+* With **components** we make a difference between elementary components \(aka "elementaries"\) and compound components \(aka "compounds". Both are different types of artifacts and described in different sections of the `manifest.webpackage`.
+* **Utilities** are artifacts to wrap any kind of resource, that can be used by components \(or apps\). Use utilities to provide js functionality \(simple functions or complete libraries\), styles etc. That is, anything that might be used by more than one other artifact.
 
-Each artifact may contain any number of **resources** (js, css, json etc. -files).
+Each artifact may contain any number of **resources** \(js, css, json etc. -files\).
 
 ## Artifact definition
 
 Artifacts are defined using JSON syntax under the `"artifacts"` property on the top-level of the `manifest.webpackage` file:
 
-```js
+```javascript
 {
   "name": "the-unique-name-of-my-webpackage",
   "version": "1.0.0",
@@ -93,3 +93,4 @@ Artifacts are defined using JSON syntax under the `"artifacts"` property on the 
 ```
 
 Check [this](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json) for more information about the `manifest.webpackage` file.
+

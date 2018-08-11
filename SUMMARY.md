@@ -2,9 +2,10 @@
 
 * [Cubbles documentation](README.md)
 * [Runtime extension - RTE](runtime-extension-rte/README.md)
-  * [User guide](runtime-extension-rte/user-guide/README.md)
-  * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
-* [Coder devtools - CDT](coder-devtools-cdt/README.md)
+  * [User guide](runtime-extension-rte/user-guide.md)
+  * [Contributor guide](runtime-extension-rte/contributor-guide.md)
+* [Coder devtools - CDT](coder-devtools-cdt.md)
 * [Terms and concepts](terms-and-concepts/README.md)
-  * [Webpackage](terms-and-concepts/webpackage/README.md)
-  * [Artifacts](terms-and-concepts/artifacts/README.md)
+  * [Webpackage](terms-and-concepts/webpackage.md)
+  * [Artifacts](terms-and-concepts/artifacts.md)
+
