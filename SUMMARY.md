@@ -4,8 +4,8 @@
 * [Runtime extension - RTE](runtime-extension-rte/README.md)
   * [User guide](runtime-extension-rte/user-guide.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide.md)
-* [Coder devtools - CDT](coder-devtools-cdt.md)
+* [Coder devtools - CDT](coder-devtools-cdt/README.md)
 * [Terms and concepts](terms-and-concepts/README.md)
   * [Webpackage](terms-and-concepts/webpackage.md)
   * [Artifacts](terms-and-concepts/artifacts.md)
-
+  * [User roles](terms-and-concepts/user-roles.md)
