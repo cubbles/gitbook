@@ -1,10 +1,13 @@
 # Table of contents
 
 * [Cubbles documentation](README.md)
+* [First steps](first-steps/README.md)
+  * [Generate a project](first-steps/generate-a-project.md)
 * [Runtime extension - RTE](runtime-extension-rte/README.md)
   * [User guide](runtime-extension-rte/user-guide.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
+  * [Create a webpackage](coder-devtools-cdt/create-a-webpackage.md)
 * [Terms and concepts](terms-and-concepts/README.md)
   * [Webpackage](terms-and-concepts/webpackage.md)
   * [Artifacts](terms-and-concepts/artifacts.md)
