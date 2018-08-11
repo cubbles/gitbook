@@ -16,7 +16,7 @@ In the following sections we will describe the manifest file in a general way. I
 >
 > Please note that this document is based on [model version 10](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json). Check [this](https://github.com/cubbles/cubx-webpackage-document-api/wiki/manifest.webpackage:-Change-Notes) to explore the valid structure, description and details of a whole manifest file for each model version.
 
-An example of a `manifes.webpackage` file is presented below:
+An example of a `manifest.webpackage` file is presented below:
 
 ```js
 {
@@ -120,7 +120,7 @@ The `artifacts` property of the manifest is an object containing the definition 
 | slots              | 1 or more slots to exchange data with other elementaries or compounds                                                                                                                                                                | *Not used*   | Optional           | Optional           | *Not used*   |
 | members            | Referenced components (elementaries or compounds) acting as members of this compound component                                                                                                                                       | *Not used*   | **Required**       | *Not used*         | *Not used*   |
 | connections        | List of connections between the members and between members and this compound component                                                                                                                                              | *Not used*   | **Required**       | *Not used*         | *Not used*   |
-| inits              | List of slot initializations of the compound and member component(s)                                                                                                                                                                 | *Not used*   | Optional           | *Not used*         | *Not used*   |
+| inits              | List of slot inits of the compound and member component(s)                                                                                                                                                                 | *Not used*   | Optional           | *Not used*         | *Not used*   |
 
 An example of a compoundComponent definition is presented below:
 
