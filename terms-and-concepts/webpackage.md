@@ -2,7 +2,7 @@
 
 A **webpackage** is a versioned container for [artifacts](artifacts.md). Each webpackage is described by its manifest file.
 
-![Webpackage arquitecture](../.gitbook/assets/webpackage.png)
+![Webpackage architecture](../.gitbook/assets/webpackage.png)
 
 > **Version of artifacts**
 >
