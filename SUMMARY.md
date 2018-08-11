@@ -6,5 +6,5 @@
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
 * [Terms and concepts](terms-and-concepts/README.md)
-  * [Webpackage](webpackage/README.md)
-  * [Artifacts](artifacts/README.md)
+  * [Webpackage](terms-and-concepts/webpackage/README.md)
+  * [Artifacts](terms-and-concepts/artifacts/README.md)
