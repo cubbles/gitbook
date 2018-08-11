@@ -1,4 +1,4 @@
-# Artifacts (of a Webpackage)
+# Artifacts
 
 A [Webpackage](../webpackage/README.md) contains at least a `manifest.webpackage` file and an arbitrary number of **artifacts**. An artifact can be one of the following:
 

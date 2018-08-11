@@ -1,4 +1,4 @@
-# A webpackage
+# Webpackage
 
 A **webpackage** is a versioned container for [artifacts](../artifacts/README.md). Each webpackage is described by its manifest file.
 
