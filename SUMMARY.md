@@ -6,6 +6,7 @@
   * [Create a webpackage](first-steps/create-a-webpackage.md)
   * [Create an elementary component](first-steps/create-elementary.md)
   * [Create a compound component](first-steps/create-compound.md)
+    * [Compound slot initialization](first-steps/compound-init.md)
 * [Runtime extension - RTE](runtime-extension-rte/README.md)
   * [User guide](runtime-extension-rte/user-guide.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide.md)
