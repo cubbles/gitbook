@@ -280,7 +280,8 @@ The file `currency-converter.js` handles the behaviour of the component when a s
             var data = JSON.parse(xhttp.responseText);
             console.log(data);
             // Update the Cubbles component model slots using the setters
-            self.setConversion(data[conversionKey]['val'][queryDate]);
+            var converted = data[conversionKey]['val'][queryDate];
+            self.setConversion(converted);
           }
         };
         xhttp.open("GET", queryUrl, true);
