@@ -230,7 +230,7 @@ To set up a connection you need to edit the *connections* array of the compound 
 
 #### The inits section
 
-The *inits* property of a compound allows setting an initial value to the slots of the compound component being defined, or to the slots of its members. To read more about compound components initialisation check [this](compound-init).
+The *inits* property of a compound allows setting an initial value to the slots of the compound component being defined, or to the slots of its members. To read more about compound components initialisation check [this](compound-init.md).
 
 We won't initialise any slot for the purpose of this tutorial.
 
