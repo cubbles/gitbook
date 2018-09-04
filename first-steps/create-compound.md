@@ -10,9 +10,24 @@ The [`currency-converter`](create-elementary.md) elementary component should be 
 
 ## Creating the currency-viewer Compound Component
 
-We will create a compound component called `currency-viewer`. This compound will use a chart to display the conversion calculated by the [`currency-converter`](create-elementary.md) elementary. The dataflow of this compound is shown below:
+We will create a compound component called `currency-viewer`. This compound will use a chart to display the conversion calculated by the [`currency-converter`](create-elementary.md) elementary.
+
+### Members description
+
+The `currency-viewer` comprises the following members:
+
+| Member Id | Description | Artifact Id | Webpackage Id |
+|-------------------|--------------------------------------------------------------------------------------------------------------|--------------------|-------------------------------------|
+| currencyConverter | Component to calculate conversions between two currencies at a certain date. | currency-converter | "this" |
+| chart | Component to visualise the currency conversion data from the `currencyCoverter` component using a bar chart. | bar-chart | com.incowia.lib.chart-library@1.0.0 |
+
+### Dataflow of the compound
+
+The dataflow of this compound is shown below:
 
 ![`currency-viewer` dataflow](../.gitbook/assets/compound_dataflow.png)
+
+### Creation
 
 Our compound component will be created within the same webpackage where you created your `currency-converter` elementary.
 
@@ -110,7 +125,7 @@ To have the resources of the members available, we need to define two dependenci
 ##### `bar-chart`
 
 1. webpackageId: `com.incowia.lib.chart-library@01.0.0`, as the `bar-chart` artifact resides within another webpackage. Thus, we should specify the name and version of this webpackage. 
-2. artifactId: currency-converter.
+2. artifactId: bar-chart.
 
 > Note that the `com.incowia.lib.chart-library@01.0.0`is already available in the [shared](https://cubbles.world/shared/cubx.core.artifactsearch@1.6.1/artifactsearch/index.html) store of the Cubbles platform.
 
@@ -118,9 +133,9 @@ The *dependencies* property of the `currency-viewer` should look as follows:
 
 ```javascript
     // ...
-    "elementaryComponents": [
+    "compoundComponents": [
       {
-        "artifactId": "currency-converter",
+        "artifactId": "currency-viewer",
         // ...
         "dependencies": [
           {
@@ -146,9 +161,9 @@ Now, we need to add the members that belong to our compound as follows:
 
 ```javascript
     // ...
-    "elementaryComponents": [
+    "compoundComponents": [
       {
-        "artifactId": "currency-converter",
+        "artifactId": "currency-viewer",
         // ...
         "members": [
           {
@@ -183,9 +198,9 @@ Moreover, to make the template available, you should add it as a resource in the
 
 ```javascript
     // ...
-    "elementaryComponents": [
+    "compoundComponents": [
       {
-        "artifactId": "currency-converter",
+        "artifactId": "currency-viewer",
         // ...
         "resources": [
           "css/currency-viewer.css",
@@ -205,9 +220,9 @@ To set up a connection you need to edit the *connections* array of the compound 
 
 ```javascript
     // ...
-    "elementaryComponents": [
+    "compoundComponents": [
       {
-        "artifactId": "currency-converter",
+        "artifactId": "currency-viewer",
         // ...
         "connections": [
           {
