@@ -14,10 +14,10 @@
   * [User guide](coder-devtools-cdt/user-guide/README.md)
     * [Upload a Webpackage](coder-devtools-cdt/user-guide/upload-a-webpackage.md)
     * [Configure network proxy](coder-devtools-cdt/user-guide/config-proxy.md)
-  * [Contributor guide](coder-devtools-cdt/summary-1.md)
+  * [Contributor guide](coder-devtools-cdt/contributor-guide/README.md)
+    * [Checklist for releasing a new webpackage.modelVersion](coder-devtools-cdt/contributor-guide/release-model-v-checklist.md)
 * [Base](base.md)
 * [Terms and concepts](terms-and-concepts/README.md)
   * [Webpackage](terms-and-concepts/webpackage.md)
   * [Artifacts](terms-and-concepts/artifacts.md)
   * [User roles](terms-and-concepts/user-roles.md)
-
