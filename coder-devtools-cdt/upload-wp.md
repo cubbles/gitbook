@@ -8,7 +8,7 @@ As a coder, you can develop and test your webpackage(s) locally using the [CDT](
 
 Details for the upload of a webpackage are set using the  `uploadConfigs` Object in the *.webpackage* file within the root folder of each webpackage.
 
-![.webpackage config file](../.gitbook/assets/wp_upload_config.png)
+![.webpackage config file location](../.gitbook/assets/wp_upload_config.png)
 
 ### Initial setup
 
