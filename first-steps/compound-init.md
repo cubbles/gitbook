@@ -1,4 +1,4 @@
-# Compound slot initialization
+# Compound slot initialisation
 
 ## Purpose
 
