@@ -2,11 +2,11 @@
 
 ## Purpose
 
-To demonstrate how to create a webpackage using the [Coder DevTools \(CDT\)](README.md).
+To demonstrate how to create a webpackage using the [Coder DevTools \(CDT\)](../coder-devtools-cdt/).
 
 ## Prerequisites
 
-* A Cubbles project was [generated](../first-steps/generate-a-project.md)
+* A Cubbles project was [generated](generate-a-project.md)
 * The CDT is a available
 
 ## Process
@@ -24,7 +24,7 @@ After that, you should provide the following information:
 * A name for the webpackage, e.g. "my-first-webpackage"
 * A name
 * An email address
-* And (optionally) a webpackage groupId, as kind of namespace for your organization, e.g, com.my.organization
+* And \(optionally\) a webpackage groupId, as kind of namespace for your organization, e.g, com.my.organization
 
 The new webpackage will be the active webpackage. If everything went well you will get a message similar to the following:
 
@@ -41,14 +41,14 @@ Done, without errors.
 ```
 
 > Note that at this stage it is possible to change some webpackage settings. This is not necessary or mandatory for this tutorial. A few possibilities will be mentioned here:
-> * You can change the parameters of the `.editorconfig` file, for instance if you like working with a different indent_size.
+>
+> * You can change the parameters of the `.editorconfig` file, for instance if you like working with a different indent\_size.
 > * You can add a `.gitignore` file inside your package folder when you want to specify files or folders that should be ignored by the git management.
 > * If you want to use bower to download additional libraries in the future you can change the default download folder modifying the `.bowerrc` file.
->
 
 ## Test
 
-To test the webpackage (its artifacts), you should start a local webserver running the following command:
+To test the webpackage \(its artifacts\), you should start a local webserver running the following command:
 
 ```bash
 grunt +startWebserver
@@ -64,6 +64,7 @@ Server running on http://localhost:8282/
 Hit CTRL-C to stop the server
 ```
 
-Then, your default web browser will open the http://localhost:8282 url and show the root of the project folder. Now you can navigate your webpackage (same name as given above). It is provided with an artifact called docs, click on it and you will sea a page that allows you visualize the documentation (manifest) of your webpackage.
+Then, your default web browser will open the [http://localhost:8282](http://localhost:8282) url and show the root of the project folder. Now you can navigate your webpackage \(same name as given above\). It is provided with an artifact called docs, click on it and you will sea a page that allows you visualize the documentation \(manifest\) of your webpackage.
 
 ![Documentation page](../.gitbook/assets/wp-doc.png)
+

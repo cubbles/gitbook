@@ -6,7 +6,7 @@ To demonstrate how to generate a Cubbles project using the [generator-cubbles](h
 
 ## Prerequisites
 
-* [Nodejs](https://nodejs.org/en/download/) and npm are installed (Tested with node 6.x to 8.x and npm 3.x to 6.x).
+* [Nodejs](https://nodejs.org/en/download/) and npm are installed \(Tested with node 6.x to 8.x and npm 3.x to 6.x\).
 * Grunt runs from every folder. To do that, start a bash or bash and type the following command:
 
 ```bash
@@ -21,8 +21,7 @@ npm install -g generator-cubbles
 
 ## Process
 
-Within a Cubbles project you will have access to the [Coder DevTools](../coder-devtools-cdt/README.md) and thus you will be able to create and manage as many [Webpackages](../coder-devtools-cdt/create-a-webpackage.md) as you want.
-To generate a project, in the bash, navigate to the folder where want to store your project and run the following command:
+Within a Cubbles project you will have access to the [Coder DevTools](../coder-devtools-cdt/) and thus you will be able to create and manage as many [Webpackages](create-a-webpackage.md) as you want. To generate a project, in the bash, navigate to the folder where want to store your project and run the following command:
 
 ```bash
 yo cubbles:project
@@ -48,7 +47,7 @@ After that, you will get:
 
 > Note that this tutorial was tested using the 3.2.0 version of the generator-cubbles.
 
-Now, you should type the project name, e.g.  my-first-project and choose the RTE version that you want to use. For the effect of this tutorial we will choose cubx.core.rte@3.x.
+Now, you should type the project name, e.g. my-first-project and choose the RTE version that you want to use. For the effect of this tutorial we will choose cubx.core.rte@3.x.
 
 ```bash
 ? Please provide a folder name:  my-first-project
@@ -110,3 +109,4 @@ Done, without errors.
 ```
 
 > Note that a project includes a suite of DevTools. Thus, this requires the download of a number of npm packages, which takes some time.
+

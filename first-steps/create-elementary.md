@@ -2,7 +2,7 @@
 
 ## Purpose
 
-To demonstrate how to create an elementary component using the [Coder DevTools](../coder-devtools-cdt/README.md).
+To demonstrate how to create an elementary component using the [Coder DevTools](../coder-devtools-cdt/).
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ To demonstrate how to create an elementary component using the [Coder DevTools](
 
 ## The currency-converter Elementary Component
 
-We will create an elementary component called *currency-converter*. It is a component that uses [The Free Currency Converter API](https://free.currencyconverterapi.com) to get current and historical foreign exchange rates. This component will have the following interface (input slots on the left and output slots on the right):
+We will create an elementary component called _currency-converter_. It is a component that uses [The Free Currency Converter API](https://free.currencyconverterapi.com) to get current and historical foreign exchange rates. This component will have the following interface \(input slots on the left and output slots on the right\):
 
 ![currency-converter interface](../.gitbook/assets/elementary_interface.png)
 
@@ -25,7 +25,7 @@ grunt +webpackage-createElementary
 
 Then, you should provide a name and, if you want, a description for the component. In our case, it should be as follows:
 
-* Name: *currency-converter*.
+* Name: _currency-converter_.
 * Description: Elementary that uses an API to Convert currencies.
 
 If everything is okay, you will get the following message in the bash:
@@ -40,11 +40,11 @@ The grunt task will create some files for our elementary component inside your w
 
 The newly created folder contains two folders, one for the generated demo and the other one for the generated documentation. Also, it contains the following three files:
 
-* *currency-converter.html*: it provides a template for the elementary component, i.e., its HTML code.
-* *currency-converter.js*: it contains the logic or behaviour for the elementary component.
-* *currency-converter-style.html*: contains CSS style definitions for the elementary component
+* _currency-converter.html_: it provides a template for the elementary component, i.e., its HTML code.
+* _currency-converter.js_: it contains the logic or behaviour for the elementary component.
+* _currency-converter-style.html_: contains CSS style definitions for the elementary component
 
-The`manifest.webpackage` file (located on the root level of your webpackage folder) has been modified in the background. It includes some meta information of your current webpackage. Now, it also contains the definition of our elementary component.
+The`manifest.webpackage` file \(located on the root level of your webpackage folder\) has been modified in the background. It includes some meta information of your current webpackage. Now, it also contains the definition of our elementary component.
 
 ```javascript
     // ...
@@ -82,7 +82,7 @@ The`manifest.webpackage` file (located on the root level of your webpackage fold
 
 ### Slot Definitions
 
-Now we should add slots that we presented in the interface above. We need three input slots (foreignCurrency, date, base) and one output slot (conversion) for the component. Those are defined in the slots array of the manifest definition of the component as follows:
+Now we should add slots that we presented in the interface above. We need three input slots \(foreignCurrency, date, base\) and one output slot \(conversion\) for the component. Those are defined in the slots array of the manifest definition of the component as follows:
 
 ```javascript
     // ...
@@ -128,11 +128,11 @@ Now we should add slots that we presented in the interface above. We need three 
 
 ### Check Generated Documentation
 
-Now you can check the generated documentation of the component (i.e., the interface view, the interface details and the dependency tree). You should perform the following steps:
+Now you can check the generated documentation of the component \(i.e., the interface view, the interface details and the dependency tree\). You should perform the following steps:
 
-* Start the embedded webserver using the `+startWebserver` grunt task available in the [DevTools](../coder-devtools-cdt/README.md).
+* Start the embedded webserver using the `+startWebserver` grunt task available in the [DevTools](../coder-devtools-cdt/).
 * Your default browser will start.
-* Navigate to: http://localhost:8282/\[webpackage-name\]/currency-converter/docs/
+* Navigate to: [http://localhost:8282/\[webpackage-name\]/currency-converter/docs/](http://localhost:8282/[webpackage-name]/currency-converter/docs/)
 
 > Note that \[webpackage-name\] should be replaced by the name of your current webpackage.
 
@@ -140,11 +140,11 @@ It should look as follows:
 
 ![currency-converter generated docs](../.gitbook/assets/elementary_doc.png)
 
-### Changing the View of the Elementary (.html File)
+### Changing the View of the Elementary \(.html File\)
 
 Now we need to change the template of the component to define the view of our component. We need three input fields to provide the needed data for the conversion, a button to trigger the conversion and an output text to show the result. The following HTML code meet these requirements.
 
-```html
+```markup
 <template id="currency-converter">
     <div>
         <div>
@@ -178,16 +178,15 @@ Now we need to change the template of the component to define the view of our co
 
 > Note that the HTML code for your component should be located inside the `<template>` tag. Also, the javascript file of the component should be included through a `<script>` tag.
 
-To see the result of the las change, check the generated demo page. Note that the local webserver should be running (See [above](#check_generated_documentation)). Navigate to  http://localhost:8282/\[webpackage-name\]/currency-converter/demo/. You should see a webpage like the one presented below:
+To see the result of the las change, check the generated demo page. Note that the local webserver should be running \(See [above](create-elementary.md#check_generated_documentation)\). Navigate to [http://localhost:8282/\[webpackage-name\]/currency-converter/demo/](http://localhost:8282/[webpackage-name]/currency-converter/demo/). You should see a webpage like the one presented below:
 
 ![currency-converter demo](../.gitbook/assets/fixer_0.png)
 
 > Note that the component doesn't do anything because it has no associated behaviour.
 
-### Change the Logic of the Elementary (.js File)
+### Change the Logic of the Elementary \(.js File\)
 
 The file `currency-converter.js` handles the behaviour of the component when a slot value is changed. We should modify the implementation to make a request when a user provides the input data and clicks on the `Convert` button. The following code enables that behaviour.
-
 
 ```javascript
 (function () {
@@ -271,7 +270,7 @@ The file `currency-converter.js` handles the behaviour of the component when a s
         var baseUrl = 'https://free.currencyconverterapi.com/api/v6/convert';
         var queryUrl = baseUrl + '?q=' + conversionKey +
           '&date=' + queryDate + '&compact=y';
-        
+
         var self = this;
 
         var xhttp = new XMLHttpRequest();
@@ -290,7 +289,6 @@ The file `currency-converter.js` handles the behaviour of the component when a s
     }
   });
 }());
-
 ```
 
 > For this tutorial we won't modify the style of our component. However, you can add CSS definitions in the file currency-converter.css.
@@ -300,3 +298,4 @@ Now if you check the generated demo and click on the `Convert` button, you will 
 ![currency-converter working demo](../.gitbook/assets/fixer_final.png)
 
 You can also check the results at the [online demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/currency-converter/demo/index.html).
+
