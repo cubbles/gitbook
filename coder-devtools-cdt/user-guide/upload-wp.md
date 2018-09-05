@@ -2,13 +2,13 @@
 
 ## Basics
 
-As a coder, you can develop and test your webpackage(s) locally using the [CDT](README.md) (Coder DevTools). If you want to provide it for a larger audience, you should upload it. That is, to transfer all files of a webpackage folder into a selected store of a [Cubbles Base](../base/README.md) instance.
+As a coder, you can develop and test your webpackage(s) locally using the [CDT](../README.md) (Coder DevTools). If you want to provide it for a larger audience, you should upload it. That is, to transfer all files of a webpackage folder into a selected store of a [Cubbles Base](../../base/README.md) instance.
 
 ## Upload Configuration
 
 Details for the upload of a webpackage are set using the  `uploadConfigs` Object in the *.webpackage* file within the root folder of each webpackage.
 
-![.webpackage config file location](../.gitbook/assets/wp_upload_config.png)
+![.webpackage config file location](../../.gitbook/assets/wp_upload_config.png)
 
 ### Initial setup
 
@@ -61,7 +61,7 @@ curl -s -X POST -H "Content-type: application/json" https://cubbles.world/_api/a
 
 The response contains an access token. Just use [JWT](https://jwt.io/) to decode it and look at the permissions property to see for which of the passed stores you have rights for, as presented below:
 
-![JWT decoding app](../.gitbook/assets/image.webp)
+![JWT decoding app](../../.gitbook/assets/image.webp)
 
 ## Perform an Upload
 
@@ -101,4 +101,4 @@ Done, without errors.
 Then your webpackage is released and all components are ready to be used.
 Use the *artifact search* of the store you uploaded into to see each artifact of your webpackage listed. Gor instance, the url for the "sandbox" store is:  [https://cubbles.world/sandbox/cubx.core.artifactsearch@1.6.1/artifactsearch/index.html](https://cubbles.world/sandbox/cubx.core.artifactsearch@1.6.1/artifactsearch/index.html). Cubbles stores looks as presented below:
 
-![Cubbles stores UI](../.gitbook/assets/cubbles_base.png)
+![Cubbles stores UI](../../.gitbook/assets/cubbles_base.png)
