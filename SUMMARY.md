@@ -9,7 +9,7 @@
     * [Compound slot initialisation](first-steps/create-compound/compound-init.md)
 * [Runtime extension - RTE](runtime-extension-rte/README.md)
   * [User guide](runtime-extension-rte/user-guide.md)
-  * [Contributor guide](runtime-extension-rte/contributor-guide.md)
+  * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
     * [Upload a Webpackage](coder-devtools-cdt/user-guide/upload-a-webpackage.md)
