@@ -262,3 +262,5 @@ Now you can check the generated demo of the component performing the following s
 It should look as follows:
 
 ![`currency-viewer` generated demo](../.gitbook/assets/compound_demo.png)
+
+You can also check the results at the [online demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/currency-viewer/demo/index.html).

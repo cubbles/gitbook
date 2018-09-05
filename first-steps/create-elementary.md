@@ -298,3 +298,5 @@ The file `currency-converter.js` handles the behaviour of the component when a s
 Now if you check the generated demo and click on the `Convert` button, you will see something as follows:
 
 ![currency-converter working demo](../.gitbook/assets/fixer_final.png)
+
+You can also check the results at the [online demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/currency-converter/demo/index.html).

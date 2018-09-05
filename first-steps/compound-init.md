@@ -84,3 +84,5 @@ To aim that, we should extend the *inits* property of the compound definition as
 If you run the demo page of the `currency-viewer` component, you will note that the input texts have the values that you defined as presented below:
 
 ![Initialised members demo](../.gitbook/assets/compound_member_init.png)
+
+You can also check the results at the [online demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/currency-viewer-init/demo/index.html).
