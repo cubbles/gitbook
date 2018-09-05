@@ -11,6 +11,7 @@
   * [User guide](runtime-extension-rte/user-guide.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
+  * [Upload a Webpackage](coder-devtools-cdt/upload-wp.md)
 * [Terms and concepts](terms-and-concepts/README.md)
   * [Webpackage](terms-and-concepts/webpackage.md)
   * [Artifacts](terms-and-concepts/artifacts.md)
