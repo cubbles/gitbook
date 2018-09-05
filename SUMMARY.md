@@ -12,6 +12,8 @@
   * [Contributor guide](runtime-extension-rte/contributor-guide.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
+    * [Upload a Webpackage](coder-devtools-cdt/user-guide/upload-a-webpackage.md)
+    * [Configure network proxy](coder-devtools-cdt/user-guide/config-proxy.md)
   * [Contributor guide](coder-devtools-cdt/summary-1.md)
 * [Base](base.md)
 * [Terms and concepts](terms-and-concepts/README.md)

@@ -2,7 +2,7 @@
 
 Want to **use** the Coder DevTools to create new webpackages? This is the right place for you.
 
-* [Upload a Webpackage](upload-a-webpackage/README.md)
+* [Upload a Webpackage](upload-a-webpackage.md)
 * [Configure network proxy](config-proxy.md)
 
 {% page-ref page="upload-a-webpackage.md" %}
