@@ -5,4 +5,3 @@ The **Coder DevTools** are a [Node.js](https://nodejs.org/) based set of tools, 
 Running the grunt command within a CDT folder you will get the list of available grunt tasks.
 
 ![CDT Default Grunt Task](../.gitbook/assets/cdt_grunt_default.png)
-
