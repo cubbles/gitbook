@@ -2,8 +2,6 @@
 
 When you have developed a webpackage, it may be useful to include a README file indicating the artifacts it contains and an example describing how to use one of the components it contains. The [CDT](README.md) provides you with a task to generate a README file for your package automatically. The task is called `+webpackage-generateReadmeFile`.
 
-You can find the basic information of this task at [npm](https://www.npmjs.com/package/cubx-grunt-generate-webpackage-readme-file).
-
 ## Purpose
 
 To generate a README file for the current webpackage (which can be set in the `project/webpackages/.workspace` file). The file should present:
@@ -61,3 +59,7 @@ Done, without errors.
 A **README.md** file will be generated in the folder of the current webpackage.
 
 ![Webpackage folder containing the generated README file](../../.gitbook/assets/readme_file.png)
+
+## The npm module version
+
+You can use an npm module that serves the same purposes called [cubx-generate-webpackage-readme-file](https://www.npmjs.com/package/cubx-generate-webpackage-readme-file). The module can be used from the command line or in a node script.
