@@ -13,6 +13,7 @@
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
     * [Upload a Webpackage](coder-devtools-cdt/user-guide/upload-a-webpackage.md)
+    * [Generate a README file](coder-devtools-cdt/user-guide/generate-readme-file.md)
     * [Configure network proxy](coder-devtools-cdt/user-guide/config-proxy.md)
   * [Contributor guide](coder-devtools-cdt/contributor-guide/README.md)
     * [Checklist for releasing a new webpackage.modelVersion](coder-devtools-cdt/contributor-guide/release-model-v-checklist.md)
