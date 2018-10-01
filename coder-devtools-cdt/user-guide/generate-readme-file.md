@@ -1,6 +1,6 @@
 # Generate a README file
 
-When you have developed a webpackage, it may be useful to include a README file indicating the artifacts it contains and an example describing how to use one of the components it contains. The [CDT](README.md) provides you with a task to generate a README file for your package automatically. The task is called `+webpackage-generateReadmeFile`.
+When you have developed a webpackage, it may be useful to include a README file indicating the artifacts it contains and an example describing how to use one of the components it contains. The [CDT](../README.md) provides you with a task to generate a README file for your package automatically. The task is called `+webpackage-generateReadmeFile`.
 
 ## Purpose
 
