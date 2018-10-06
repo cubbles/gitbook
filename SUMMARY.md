@@ -22,6 +22,7 @@
     * [Update the RTE version of a webpackage](coder-devtools-cdt/user-guide/update-rte.md)
     * [Prepare a webpackage to be released](coder-devtools-cdt/user-guide/prepare-release.md)
     * [Update webpackage to the next development version](coder-devtools-cdt/user-guide/update-to-next-version.md)
+    * [Create a demo webpackage](coder-devtools-cdt/user-guide/create-webpackage-demo.md)
   * [Contributor guide](coder-devtools-cdt/contributor-guide/README.md)
     * [Checklist for releasing a new webpackage.modelVersion](coder-devtools-cdt/contributor-guide/release-model-v-checklist.md)
 * [Base](base.md)
