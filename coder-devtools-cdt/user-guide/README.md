@@ -8,3 +8,4 @@ Want to **use** the Coder DevTools to create new webpackages? This is the right 
 * [Rename and artifact](rename-artifact.md)
 * [Update the RTE version of a webpackage](update-rte.md)
 * [Prepare a webpackage to be released](prepare-release.md)
+* [Update webpackage to the next development version](update-to-next-version.md)
