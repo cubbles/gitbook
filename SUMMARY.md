@@ -17,6 +17,7 @@
     * [Rename an artifact](coder-devtools-cdt/user-guide/rename-artifact.md)
     * [Configure network proxy](coder-devtools-cdt/user-guide/config-proxy.md)
     * [Validate the manifest.webpackage file](coder-devtools-cdt/user-guide/validate-manifest.md)
+    * [Change active webpackage](coder-devtools-cdt/user-guide/change-active-webpackage.md)
     * [Release a webpackage](coder-devtools-cdt/user-guide/release-webpackage.md)
     * [Update the RTE version of a webpackage](coder-devtools-cdt/user-guide/update-rte.md)
     * [Prepare a webpackage to be released](coder-devtools-cdt/user-guide/prepare-release.md)
