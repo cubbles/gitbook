@@ -18,6 +18,7 @@
     * [Configure network proxy](coder-devtools-cdt/user-guide/config-proxy.md)
     * [Validate the manifest.webpackage file](coder-devtools-cdt/user-guide/validate-manifest.md)
     * [Change active webpackage](coder-devtools-cdt/user-guide/change-active-webpackage.md)
+    * [Bulk upload of webpackages](coder-devtools-cdt/user-guide/bulk-upload.md)
     * [Release a webpackage](coder-devtools-cdt/user-guide/release-webpackage.md)
     * [Update the RTE version of a webpackage](coder-devtools-cdt/user-guide/update-rte.md)
     * [Prepare a webpackage to be released](coder-devtools-cdt/user-guide/prepare-release.md)

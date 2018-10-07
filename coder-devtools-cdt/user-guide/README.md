@@ -8,6 +8,7 @@ Want to **use** the Coder DevTools to create new webpackages? This is the right 
 * [Rename and artifact](rename-artifact.md)
 * [Validate the manifest.webpackage file](validate-manifest.md)
 * [Change active webpackage](change-active-webpackage.md)
+* [Bulk upload of webpackages](bulk-upload.md)
 * [Release a webpackage](release-webpackage.md)
 * [Update the RTE version of a webpackage](update-rte.md)
 * [Prepare a webpackage to be released](prepare-release.md)
