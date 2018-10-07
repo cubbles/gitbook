@@ -40,7 +40,7 @@ The folder will contain the following files:
 After generating the files, you will get a message similar to the one presented below:
 
 ```bash
-info: finished generation files in: /home/edwin/Documents/incowia/sandbox/my-first-project/webpackages/my-second-webpackage/compound-two/test
+info: finished generation files in: ../../my-first-project/webpackages/my-second-webpackage/compound-two/test
 ```
 
 ## The npm module version
