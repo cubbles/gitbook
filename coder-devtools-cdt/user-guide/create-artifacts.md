@@ -1,6 +1,6 @@
 # Create Cubbles artifacts
 
-The [CDT](../README.md) offers you four tasks to create [Cubbles artifacts](../../terms-and-concepts/artifacts), which will be described below.
+The [CDT](../README.md) offers you four tasks to create [Cubbles artifacts](../../terms-and-concepts/artifacts.md), which will be described below.
 
 > Note that all tasks should be run within the CDT folder (normally it is called *devtools*). The new artifacts will be created as part of the [active webpackage](change-active-webpackage.md).
 
