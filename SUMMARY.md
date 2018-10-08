@@ -24,6 +24,7 @@
     * [Prepare a webpackage to be released](coder-devtools-cdt/user-guide/prepare-release.md)
     * [Update webpackage to the next development version](coder-devtools-cdt/user-guide/update-to-next-version.md)
     * [Generate a test environment for a component](coder-devtools-cdt/user-guide/generate-art-wct-scaffold.md)
+    * [Validate sources](coder-devtools-cdt/user-guide/validate-sources.md)
     * [Create a demo webpackage](coder-devtools-cdt/user-guide/create-webpackage-demo.md)
   * [Contributor guide](coder-devtools-cdt/contributor-guide/README.md)
     * [Checklist for releasing a new webpackage.modelVersion](coder-devtools-cdt/contributor-guide/release-model-v-checklist.md)
