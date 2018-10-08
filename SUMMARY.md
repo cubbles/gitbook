@@ -12,6 +12,7 @@
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
+    * [Create Cubbles artifacts](coder-devtools-cdt/user-guide/create-artifacts.md)
     * [Upload a Webpackage](coder-devtools-cdt/user-guide/upload-a-webpackage.md)
     * [Generate a README file](coder-devtools-cdt/user-guide/generate-readme-file.md)
     * [Rename an artifact](coder-devtools-cdt/user-guide/rename-artifact.md)
