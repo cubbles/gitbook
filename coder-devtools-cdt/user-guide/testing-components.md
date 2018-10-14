@@ -8,10 +8,10 @@ To demonstrate how to test a Cubbles component in a browser.
 
 To be able to test a component, you should have:
 
-* Created a [compound](../../first-steps/create-compound/README.md) or [elementary](../../first-steps/create-elementary) component. In the case of this tutorial, we will test the `currency-converter` elementary, whose webpackage can be cloned from its [GitHub repository](https://github.com/iCubbles/my-first-project).
+* Created a [compound](../../first-steps/create-compound/README.md) or [elementary](../../first-steps/create-elementary.md) component. In the case of this tutorial, we will test the `currency-converter` elementary, whose webpackage can be cloned from its [GitHub repository](https://github.com/iCubbles/my-first-project).
 * Installed the CDT dependencies running the `npm install` command from its root folder (usually called *devtools*)
 
-> You can check [this tutorial](../../first-steps/create-elementary) to know how to create elementary components and to read more details about the currency-converter` elementary. Also, a demo of this component is available [online](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/currency-converter/demo/index.html).
+> You can check [this tutorial](../../first-steps/create-elementary.md) to know how to create elementary components and to read more details about the currency-converter` elementary. Also, a demo of this component is available [online](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/currency-converter/demo/index.html).
 
 ## Testing the currency-converter component
 
