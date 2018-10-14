@@ -15,5 +15,6 @@ Want to **use** the Coder DevTools to create new webpackages? This is the right 
 * [Prepare a webpackage to be released](prepare-release.md)
 * [Update webpackage to the next development version](update-to-next-version.md)
 * [Generate a test environment for a component](generate-art-wct-scaffold.md)
+* [Testing Cubbles components](testing-components.md)
 * [Validate sources](validate-sources.md)
 * [Create a demo webpackage](create-webpackage-demo.md)
