@@ -46,3 +46,7 @@ info: finished generation files in: ../../my-first-project/webpackages/my-second
 ## The npm module version
 
 You can use an npm module that serves the same purposes called [cubx-wct-scaffolder](https://www.npmjs.com/package/cubx-wct-scaffolder). The module can be used from the command line or in a node script.
+
+## Further details
+
+To know how to write unit tests for you components check [this tutorial](testing-components.md).
