@@ -1,7 +1,3 @@
----
-description: This section is about the documentation of the cubbles runtime extension (RTE).
----
-
 # Runtime extension - RTE
 
 The **RTE \(RunTime Extension\)** works within the clients webbrowser. Just integrate the RTE into a web page with 2 simple script tags and you are ready to use Cubbles components.
@@ -21,4 +17,3 @@ The **RTE \(RunTime Extension\)** works within the clients webbrowser. Just inte
 **Do you want to use Cubbles on your website?** Follow the [User Guide](user-guide.md).
 
 **Do you want to contribute to Cubbles Open Source Project or get to know the Cubbles technology in detail?** Follow the [Contributor Guide](contributor-guide.md).
-
