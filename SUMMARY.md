@@ -10,6 +10,7 @@
 * [Runtime extension - RTE](runtime-extension-rte/README.md)
   * [User guide](runtime-extension-rte/user-guide/README.md)
     * [RTE Integration](runtime-extension-rte/user-guide/rte-integration.md)
+    * [The Cubbles TAG API](runtime-extension-rte/user-guide/cubbles-tag-api.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
