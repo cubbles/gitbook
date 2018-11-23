@@ -2,12 +2,12 @@
 
 ## Prerequisites
 
-1. Your user-interface allows to place script-tags into a web page.
+1. Your user-interface allows placing script-tags into a web page.
 2. You have a url where the Cubbles RTE webpackage is available and your web page has access to it.
 
 ## Integration
 
-Simply put two `<script>` tags into the webpage (into the head or the body) to make the RTE (the Cubbles RunTime Extension) available on client side:
+Simply put two `<script>` tags into the webpage (into the head or the body) to make the RTE (the Cubbles RunTime Extension) available on the client side:
 
 ```html
   <script src="[base-url]/[store]/cubx.core.rte@3.0.0/webcomponents/custom-elements-es5-adapter.js"></script>
@@ -16,7 +16,7 @@ Simply put two `<script>` tags into the webpage (into the head or the body) to m
 
 ### Scripts
 
-1. **custom-elements-es5-adapter**: Allows compiling and serving [custom components](https://developers.google.com/web/fundamentals/web-components/customelements) using ES5, so that the browsers tat don't support ES6 work correctly.
+1. **custom-elements-es5-adapter**: Allows compiling and serving [custom components](https://developers.google.com/web/fundamentals/web-components/customelements) using ES5, so that the browsers that don't support ES6 work correctly.
 2. **webcomponents-lite**: Load some polyfills to enable browsers to work with webcomponents.
 3. **crc-loader**: It provides the entry-point for RTE, that is, it makes RTE available on client side.
 
@@ -41,7 +41,7 @@ Note that the source urls of the scripts presented above have two placeholders:
   - enable the browser to load the dependencies
   - and trigger the CIF to start working.
 
-It might be useful to use another event - e.g. if the content containing cubbles components is included into the document in an asynchronous way.
+It might be useful to use another event - e.g. if the content containing cubbles components is included in the document in an asynchronous way.
 
 ```html
 <script src="<crc-loader>" data-cubx-startevent="MyCubxStartEvent"></script>
@@ -66,8 +66,8 @@ A page developer can (optionally) provide a configuration object for the Cubbles
 
 ### Important information about multiple versions of the same component
 
-Loading the same artifact multiple times (perhaps in different versions) leads to an unpredictable behavior within the browser --also if they have been referred from different components--. In this context, each component would work as programmed, but browsers do not provide isolated runtimes for different components (and components' versions).
+Loading the same artifact multiple times (perhaps in different versions) leads to an unpredictable behaviour within the browser --also if they have been referred from different components--. In this context, each component would work as programmed, but browsers do not provide isolated runtimes for different components (and components' versions).
 
 Therefore the RTE (since version 2.1) has a dependency resolution mechanism implemented that prefers the webpackage version with the shortest path within the page dependency tree.
 
-To affect the dependency tree specified artifacts can be added and/or excluded by configuration. The combination of exclude and addition of dependencies allows you to simply override/replace any version of any artifact.
+To affect the dependency tree specified artifacts can be added and/or excluded by configuration. The combination of exclusion and addition of dependencies allows you to simply override/replace any version of an artifact.
