@@ -14,6 +14,6 @@ The **RTE \(RunTime Extension\)** works within the clients webbrowser. Just inte
 * creates the component instances \(aka. "cubbles"\) and
 * initialises each cubble with values provided by the developer.
 
-**Do you want to use Cubbles on your website?** Follow the [User Guide](user-guide.md).
+**Do you want to use Cubbles on your website?** Follow the [User Guide](user-guide/README.md).
 
-**Do you want to contribute to Cubbles Open Source Project or get to know the Cubbles technology in detail?** Follow the [Contributor Guide](contributor-guide.md).
+**Do you want to contribute to Cubbles Open Source Project or get to know the Cubbles technology in detail?** Follow the [Contributor Guide](contributor-guide/README.md).
