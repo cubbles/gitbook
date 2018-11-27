@@ -68,8 +68,6 @@ To provide those ids you should use the webpackge-id and the artifact-id url par
 
 <iframe src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;dependencies=[]"> </iframe>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSa_OtVZUot5S9O2EE8vs3XqkE1Wha-KlyPRkUvr1OUQD8J1yGdcGIJsU2LQhCymphRiqDEXQNFPgeF/pubhtml?widget=true&amp;headers=false"> </iframe>
-
 ### Component's slots initialization (Optional)
 
 Until now the line chart is empty so you need to provide initial values for the `line-chart` component. We should use the `inits` parameter, which accepts the slots values in JSON format, i.e., {"slot1Name": slot1Value, "slot2Name": slot2Value}.
