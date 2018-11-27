@@ -66,7 +66,7 @@ To provide those ids you should use the webpackge-id and the artifact-id url par
 
 #### Result of component initialization
 
-<iframe src='https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;dependencies=[]'></iframe>
+<iframe src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;dependencies=[]"></iframe>
 
 ### Component's slots initialization (Optional)
 
