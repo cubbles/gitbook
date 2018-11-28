@@ -13,6 +13,7 @@
     * [The Cubbles TAG API](runtime-extension-rte/user-guide/cubbles-tag-api/README.md)
       * [The Cubbles Dependency API](runtime-extension-rte/user-guide/cubbles-tag-api/dependency-api.md)
     * [The Cubbles IFrame API](runtime-extension-rte/user-guide/cubbles-iframe-api.md)
+    * [The Cubbles IFrame Resizer API](runtime-extension-rte/user-guide/cubbles-iframe-resizer.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
