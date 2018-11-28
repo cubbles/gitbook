@@ -68,7 +68,7 @@ To provide those ids you should use the webpackge-id and the artifact-id url par
 
 #### Result of component initialization
 
-You can check the result of including a component via the RTE iframe API checking [![RTE iframe API Demo](../../.gitbook/iframe-api.png)](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/index.html).
+You can check the result of including a component via the RTE iframe API checking [![RTE iframe API Demo](../../.gitbook/assets/iframe-api.png)](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/index.html).
 
 ### Component's slots initialization (Optional)
 
