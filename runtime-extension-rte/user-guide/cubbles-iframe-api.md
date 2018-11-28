@@ -61,15 +61,14 @@ To initialize the iframe, you should provide the following data of the component
 To provide those ids you should use the webpackge-id and the artifact-id url parameters as shown below:
 
 ```html
-<iframe src='https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;dependencies=[]'></iframe>
+<iframe src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;dependencies=[]"></iframe>
 ```
 
 > Note: although single quotes are not JSON valid, you can use them to denote a string since double quotes are used to enclose HTML attributes values.
 
 #### Result of component initialization
 
-You can check the result of including a component via the RTE iframe API checking [this demo](</div>
-https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/index.html).
+You can check the result of including a component via the RTE iframe API checking [![RTE iframe API Demo](../../.gitbook/iframe-api.png)](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/index.html).
 
 ### Component's slots initialization (Optional)
 
