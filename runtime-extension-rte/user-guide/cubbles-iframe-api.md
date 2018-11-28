@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Cubbles supports the integration of any component into a webpage using the html **iframe** element.
+Cubbles supports the integration of any component into a webpage using the HTML **iframe** element.
 
 This is a useful option if:
 
@@ -46,12 +46,12 @@ The `iframe` app allows users to visualize a component within any web page using
 The `iframe` app is available at [https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe](https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe). Therefore, to use it you should provide the url as THE _src_ attribute of an iframe element as follows:
 
 ```html
-<iframe src='https://cubbles.world/sandbox/ cubx.core.rte@3.0.0-SNAPSHOT/iframe'></iframe>
+<iframe src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe"></iframe>
 ```
 
 Note that the app itself loads nothing, first it should be initialized. The following sections present this process in detail.
 
-#### Component initialization (Mandatory)
+### Component initialization (Mandatory)
 
 To initialize the iframe, you should provide the following data of the component:
 
@@ -64,9 +64,12 @@ To provide those ids you should use the webpackge-id and the artifact-id url par
 <iframe src='https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;dependencies=[]'></iframe>
 ```
 
+> Note: although single quotes are not JSON valid, you can use them to denote a string since double quotes are used to enclose HTML attributes values.
+
 #### Result of component initialization
 
-https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/index.html
+You can check the result of including a component via the RTE iframe API checking [this demo](</div>
+https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/index.html).
 
 ### Component's slots initialization (Optional)
 
@@ -82,21 +85,22 @@ In our case we need to initialize the component as follows:
 The `iframe` should look as follows:
 
 ```html
-<iframe src='https://cubbles.world/sandbox/ cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;inits={"dataColumns":[["Product A",1000,500,1500,1100],["Product B",300,400,700,500]],"xLabels":["January","February","March","April"]}&dependencies=[]'></iframe>
+<iframe src="https://cubbles.world/sandbox/ cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;inits={'dataColumns':[['Product A',1000,500,1500,1100],['Product B',300,400,700,500]],'xLabels':['January','February','March','April']}&dependencies=[]"></iframe>
 ```
 
 #### Result of inits initialization
 
-<iframe src='https://cubbles.world/sandbox/ cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib.chart-library@1.0.0&amp;artifact-id=line-chart&amp;inits={"dataColumns":[["Product A",1000,500,1500,1100],["Product B",300,400,700,500]],"xLabels":["January","February","March","April"]}&dependencies=[]'></iframe>
+You can check the result of initializing a component via the RTE iframe API checking [this demo](</div>
+https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/initialized.html).
 
 #### Adding dependencies (Optional)
 
-If you want, you can also add Cubbles dependencies to the component using the `dependencies` parameter, which accepts an array (JSON format) containing the dependencies like this: [{ "webpackage-id" : "valueX", "artifact-id" : "valueY"}, ...].
+You can also add Cubbles dependencies to the component using the `dependencies` parameter, which accepts an array (JSON format) containing the dependencies like this: [{ "webpackage-id" : "valueX", "artifact-id" : "valueY"}, ...].
 
 For instance if you want to add our [bootstrap](https://cubbles.world/sandbox/bootstrap-3.3.5@1.4.0) utility as dependency the code should look as shown below:
 
 ```html
-<iframe src='https://cubbles.world/sandbox/ cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib ... &dependencies=[{"webpackage-id" : "bootstrap-3.3.5@1.4.0", "artifact-id" : "bootstrap"}]'></iframe>
+<iframe src="https://cubbles.world/sandbox/ cubx.core.rte@3.0.0-SNAPSHOT/iframe/index.html?webpackage-id=com.incowia.lib ... &dependencies=[{'webpackage-id':'bootstrap-3.3.5@1.4.0','artifact-id':'bootstrap'}]"></iframe>
 ```
 
-> You might want the Cubbles `iframe` size to adjust to its content. Then, check the [The Cubbles IFrame Resizer API](cubbles-iframe-resizer.md) to get more information.
+> You might want the Cubbles `iframe` to be resized to adjust to its content. Then, check the [The Cubbles IFrame Resizer API](cubbles-iframe-resizer.md) to know how to do it.
