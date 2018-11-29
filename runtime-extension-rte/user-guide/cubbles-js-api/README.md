@@ -17,3 +17,5 @@ To make it easier to explain an understand how to interact with a component, we 
 ![Interface of the cubx-textarea component](../../../.gitbook/assets/cubx-textarea.png)
 
 ## Tutorials
+
+* [Interacting with Cubbles from the outside](./outside-interaction.md)

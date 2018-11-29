@@ -22,7 +22,7 @@ The methods to interact with a cubble are generated for each slot of a component
 
 ## Using the methods
 
-Now in order to use these methods you should have our component already working; to aim that, you might have an html page like the one shown below:
+Now to use these methods you should have our component already working; to aim that, you might have an html page like the one shown below:
 
 ```html
 <!DOCTYPE html>
@@ -141,4 +141,7 @@ The code below follow the indications presented above using our `cubx-textarea` 
 ```
 
 #### Result
-![](https://cubbles.atlassian.net/wiki/download/thumbnails/20523470/textareaResult.png?version=1&modificationDate=1493158819289&cacheVersion=1&api=v2&width=250&height=250)
+
+![Outside interaction demo result](../../../.gitbook/assets/outside-interaction-demo.png)
+
+Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/cubbles-js-api-demos/outside-interaction.html) to see the result working online.
