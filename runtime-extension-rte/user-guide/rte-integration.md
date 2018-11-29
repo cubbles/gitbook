@@ -11,7 +11,7 @@ Simply put two `<script>` tags into the webpage (into the head or the body) to m
 
 ```html
   <script src="[base-url]/[store]/cubx.core.rte@3.0.0/webcomponents/custom-elements-es5-adapter.js"></script>
-  <script src="[base-url]/[store]/cubx.core.rte@3.0.0/webcomponents-lite/webcomponents-lite.js"> <script src="[base-url]/[store]/cubx.core.rte@3.0.0/crc-loader/js/main.js"></script>
+  <script src="[base-url]/[store]/cubx.core.rte@3.0.0/webcomponents/webcomponents-lite.js"> <script src="[base-url]/[store]/cubx.core.rte@3.0.0/crc-loader/js/main.js"></script>
 ```
 
 ### Scripts
