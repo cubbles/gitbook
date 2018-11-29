@@ -7,11 +7,11 @@ Cubbles supports the integration of any component into a webpage using the HTML 
 This is a useful option if:
 
 1. You are not allowed to place any `<script>` element into the page.
-2. The component's integration via the [Cubbles Tag API](cubbles-tag-api/README.md) has side-effects onto the embedding page:
+2. The component's integration via the [Cubbles Tag API](../cubbles-tag-api/README.md) has side-effects onto the embedding page:
    1. styling side-effects - e.g. if CSS declarations within the component are not consequently defined within their own namespace.
    2. functional side-effects - e.g. if JavaScript dependencies used by the component are in conflict with javascript dependencies of the embedding page.
 
-The [RTE](../README.md) contains a html-resource:
+The [RTE](../../README.md) contains a html-resource:
 
 1. that can be referenced using the src-attribute of an `iframe` element,
 2. with parameters to
@@ -70,7 +70,7 @@ To provide those ids you should use the webpackge-id and the artifact-id url par
 
 The result of the code above may look as follows:
 
-![RTE iframe API Demo](../../.gitbook/assets/iframe-api.png)
+![RTE iframe API Demo](../../../.gitbook/assets/iframe-api.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/index.html) to see the result running online.
 
@@ -95,7 +95,7 @@ The `iframe` should look as follows:
 
 The result of the code above may look as follows:
 
-![RTE iframe API Demo](../../.gitbook/assets/iframe-api-init.png)
+![RTE iframe API Demo](../../../.gitbook/assets/iframe-api-init.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/initialized.html) to see the result running online.
 

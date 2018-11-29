@@ -2,13 +2,13 @@
 
 ## Purpose
 
-Cubbles supports the integration of any component into a webpage using the html **iframe** element (See [The Cubbles IFrame API](cubbles-iframe-api.md)). However, the iframe will not bet automatically resized to adjust its content, and you may not always be sure of the final size of the iframe.
+Cubbles supports the integration of any component into a webpage using the html **iframe** element (See [The Cubbles IFrame API](./README.md)). However, the iframe will not bet automatically resized to adjust its content, and you may not always be sure of the final size of the iframe.
 
 In that case, you can use the `iframe-resizer` utility to enable the Cubbles `iframe` to resize according to its content. The following sections show how to use the `iframe-resizer` utility to automatically resize a Cubbles iframe.
 
 ## Use
 
-If you want the Cubbles `iframe` to be resized automatically according to its content size; you can use the `iframe-resizer` utility. Let's suppose you want to use a Cubbles `iframe` to display the _cubx-maps-demo_ from the _cubx-maps@1.0.0-SNAPSHOT_, you should include an _iframe_ html element as follows (See [The Cubbles IFrame API](cubbles-iframe-api.md)):
+If you want the Cubbles `iframe` to be resized automatically according to its content size; you can use the `iframe-resizer` utility. Let's suppose you want to use a Cubbles `iframe` to display the _cubx-maps-demo_ from the _cubx-maps@1.0.0-SNAPSHOT_, you should include an _iframe_ html element as follows (See [The Cubbles IFrame API](./README.md)):
 
 ```html
 <html>
@@ -59,6 +59,6 @@ Finally you should:
 
 The _width_ of the iframe will be set to 100%. The _height_ will be set according to the body content of the iframe whenever it changes as shown below.
 
-![RTE iframe Resizer Demo](../../.gitbook/assets/iframe-resize.png)
+![RTE iframe Resizer Demo](../../../.gitbook/assets/iframe-resize.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/resizer.html) to see the result running online.
