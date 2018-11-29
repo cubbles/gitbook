@@ -20,7 +20,7 @@ The methods to interact with a cubble are generated for each slot of a component
 | slots () | Return an array containing the definitions of all slots of the component. |
 | addDynamicConnection (dynamicConnection) | Add a dynamic connection to the component. (See  [Dynamic connections section](./dynamic-connections.md)) |
 
-## Using the methods
+### Using the methods
 
 Now to use these methods you should have our component already working; to aim that, you might have an html page like the one shown below:
 
@@ -201,3 +201,25 @@ The only output slot of our  `cubx-textarea`  component is  _value_. The followi
 ![Slot value change interception demo result](../../../.gitbook/assets/slot-value-interception.png).
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/cubbles-js-api-demos/slot-change-interception.html) to see the result working online.
+
+## Outside interaction using the model object
+
+The cubbles components have an associated property called _mode_ which is an object. You can use this object to get and set the value of component slot as follows:
+
+```html
+...
+ <script>
+    ...
+      // Wait until the component is ready to be used
+      document.addEventListener('cifReady', function() {
+        // Set the 'value' slot using the model property
+        cubxTextarea.model.value = 'Text of the textarea';
+        ...
+        // Access the 'value' slot using the model property
+        var textareaValue = cubxTextarea.model.value;
+        ...
+      });
+    })()
+ </script>
+...
+```
