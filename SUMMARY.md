@@ -12,6 +12,7 @@
     * [RTE Integration](runtime-extension-rte/user-guide/rte-integration.md)
     * [The Cubbles TAG API](runtime-extension-rte/user-guide/cubbles-tag-api/README.md)
       * [The Cubbles Dependency API](runtime-extension-rte/user-guide/cubbles-tag-api/dependency-api.md)
+    * [The Cubbles Javascript API](./runtime-extension-rte/user-guide/cubbles-js-api/README.md)
     * [The Cubbles IFrame API](runtime-extension-rte/user-guide/cubbles-iframe-api.md)
     * [The Cubbles IFrame Resizer API](runtime-extension-rte/user-guide/cubbles-iframe-resizer.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
