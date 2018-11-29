@@ -145,3 +145,59 @@ The code below follow the indications presented above using our `cubx-textarea` 
 ![Outside interaction demo result](../../../.gitbook/assets/outside-interaction-demo.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/cubbles-js-api-demos/outside-interaction.html) to see the result working online.
+
+## Intercepting changes on output slots
+
+Sometimes it could be useful to detect when the value of an output slot has changed and get this new value, to aim that you just need to listen to the _cifModelChange_ event. Then, to get the slot information you should use  _event.detail_ property, which is an object with the following properties:
+
+1. **slot**: corresponds to the name of the slot whose value has changed
+2. **payload**: corresponds to the new value of the slot
+
+### A working example
+
+The only output slot of our  `cubx-textarea`  component is  _value_. The following example will add a  _<p>_ element showing the  _slot_  and the  _payload_  properties of the event detail each time the  _value_  slot changes its value. Such change can be triggered by just typing within the textarea and then clicking outside, or pressing tab key, etc.
+
+### Code
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Interacting with &lt;cubx-textarea&gt;</title>
+  <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/custom-elements-es5-adapter.js"></script>
+  <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/webcomponents-lite.js"></script>
+  <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/crc-loader/js/main.js" data-crcinit-loadcif="true"></script>
+</head>
+<body>
+  <cubx-textarea cubx-webpackage-id="com.incowia.basic-html-components@2.0.0-SNAPSHOT"></cubx-textarea>
+
+  <h2>Log:</h2>
+
+  <script>
+    (function(){
+      'use strict';
+
+      // 1. Get the component from DOM
+      var cubxTextarea = document.querySelector('cubx-textarea');
+
+      // 2. Listen to the 'cifModelChange' event
+      cubxTextarea.addEventListener('cifModelChange', function(event) {
+        if (event.detail.slot === 'value') {
+          var p = document.createElement('p');
+          p.innerHTML = '<strong>Slot: </strong>' + JSON.stringify(event.detail.slot) +
+            ', <strong>Payload: </strong>' + JSON.stringify(event.detail.payload);
+          document.body.appendChild(p);
+        }
+      });
+    })()
+  </script>
+</body>
+</html>
+```
+
+### Result
+
+![Slot value change interception demo result](../../../.gitbook/assets/slot-value-interception.png).
+
+Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/cubbles-js-api-demos/slot-change-interception.html) to see the result working online.
