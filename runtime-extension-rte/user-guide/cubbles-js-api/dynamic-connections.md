@@ -4,13 +4,13 @@ The Cubbles Javascript API offers a method called `addDynamicConnection`, which 
 
 | Property name | Type | Requirement | Description |
 |-----------------|---------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| source | object | required | Represents the source of the connection. It has the following properties: <br>**runtimeId** (string): indicates the runtimeId of the source component <br>**slot** (string): indicates the name of the source slot of the connection |
-| destination | object | required | Represents the target or destination of the connection. It has the following properties: <br>**runtimeId** (string): indicating the runtimeId of the destination component <br>**slot** (string): indicating the name of the destination slot of the connection |
+| source | object | required | Represents the source of the connection. It has the following properties: <br>- **runtimeId** (string): indicates the runtimeId of the source component <br>- **slot** (string): indicates the name of the source slot of the connection |
+| destination | object | required | Represents the target or destination of the connection. It has the following properties: <br>- **runtimeId** (string): indicating the runtimeId of the destination component <br>- **slot** (string): indicating the name of the destination slot of the connection |
 | connectionId | string | optional (automatically generated) | Indicates the id for this connection, which should be unique within a context |
 | hookFunction | string | optional | Describes a function or the name of a function to be called before a value is set in a destination slot |
 | repeatedValues | boolean | optional | Indicates whether a same value can be propagated consecutively |
 | copyValue | boolean | optional | Indicates whether the payload of a connection should be copied or not |
-| directExecution | boolean | optional | Indicates whether the connection should start working after its creation |
+| directExecution | boolean | optional | Indicates whether the connection should start working after its creation
 
 ## Public methods
 
@@ -29,7 +29,7 @@ To set and validate the properties of a `DynamicConnection` you can use the foll
 | setRepeatedValues (repeatedValues) | Sets the repeatedValues property of a connection, which indicates whether the same value can be propagated consecutively |
 | setHookFunction (hookFunction) | Sets a function to a connection, which will be called before the value is set to the destination slot |
 | setDirectExecution (directExecution) | Sets the directExecution property of a dynamic connection, which indicates whether the connection should start working after its creation; i.e., the current value of the source should be propagated immediately. |
-| validate () | Validates all the properties of a dynamic connection. Additionally, it throws and reports errors (if any)|
+| validate () | Validates all the properties of a dynamic connection. Additionally, it throws and reports errors (if any)
 
 ## Creating and adding a dynamic connection
 
