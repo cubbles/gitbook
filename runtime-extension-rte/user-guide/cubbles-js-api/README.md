@@ -19,3 +19,4 @@ To make it easier to explain an understand how to interact with a component, we 
 ## Tutorials
 
 * [Interacting with Cubbles from the outside](./outside-interaction.md)
+* [Adding dynamic connections](./dynamic-connections.md)
