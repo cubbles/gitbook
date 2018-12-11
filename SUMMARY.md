@@ -16,6 +16,8 @@
       * [Interacting with Cubbles from the outside](./runtime-extension-rte/user-guide/cubbles-js-api/outside-interaction.md)
       * [Adding dynamic connections](./runtime-extension-rte/user-guide/cubbles-js-api/dynamic-connections.md)
       * [Interacting with Elementary Cubbles from the inside](./runtime-extension-rte/user-guide/cubbles-js-api/inside-interaction.md)
+    * [The RTE Processing](./runtime-extension-rte/user-guide/rte-processing/README.md)
+      * [RTE initialization and rendering timeline](./runtime-extension-rte/user-guide/rte-processing/rte-init-render.md)
     * [The Cubbles IFrame API](runtime-extension-rte/user-guide/cubbles-iframe-api/README.md)
       * [The Cubbles IFrame Resizer API](runtime-extension-rte/user-guide/cubbles-iframe-api/cubbles-iframe-resizer.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
