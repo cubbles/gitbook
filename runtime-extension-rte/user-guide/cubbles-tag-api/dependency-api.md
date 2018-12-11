@@ -224,7 +224,7 @@ The code below results in the same exclusion of the previous section:
     <script>
         window.cubx = {
             CRCInit: {
-                rootDependencyExcludes: [</div>
+                rootDependencyExcludes: [
                     {
                         webpackageId: 'third-party-lib@1.0',
                         artifactId: 'awesome-lib-util'
