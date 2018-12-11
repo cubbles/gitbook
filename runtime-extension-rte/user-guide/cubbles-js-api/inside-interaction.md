@@ -78,11 +78,11 @@ That extension can be done extending the *CubxComponent* object. In our case, we
 }());
 ```
 
-## A working example
+### A working example
 
 We will use two instances of the `cubx-textarea` elementary. In this example, we use the [The Cubbles Tag API](../cubbles-tag-api/README.md) to initialize the _value_ slot of one the instances of the component and create a connection between both instances.
 
-### Code
+#### Code
 
 ```html
 <!DOCTYPE html>
