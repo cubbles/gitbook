@@ -65,16 +65,16 @@ That extension can be done extending the *CubxComponent* object. In our case, we
     contextReady: function() {
       this.$$('textarea').addEventListener("change", function () {
         this.setValue(event.target.value);
-}.bind(this), false);
-},
+      }.bind(this), false);
+    },
 
     // 2. update textarea element when the 'value' slot changes
     updateValue: function (newValue) {
       if (newValue !== undefined) {
         this.$$('textarea').value = newValue;
-}
-},
-});
+      }
+    },
+  });
 }());
 ```
 
@@ -94,15 +94,15 @@ We will use two instances of the `cubx-textarea` elementary. In this example, we
     <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/webcomponents-lite.js"></script>
     <script>
       window.cubx = {
-          CRCInit: {
-              rootDependencies: [</div>
-{
-                      webpackageId: 'com.incowia.basic-html-components@2.0.0-SNAPSHOT',
-                      artifactId: 'cubx-textarea'  
-}
-              ]  
-}
-};
+        CRCInit: {
+            rootDependencies: [
+              {
+                    webpackageId: 'com.incowia.basic-html-components@2.0.0-SNAPSHOT',
+                    artifactId: 'cubx-textarea'  
+              }
+            ]  
+        }
+      };
     </script>
     <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/crc-loader/js/main.js" data-crcinit-loadcif="true"></script>
 </head>
@@ -135,19 +135,21 @@ Input slots can be initialized in manifest, so you can pre-defined an initial in
 
 We will initialize the value of the slots of our `cubx-textarea` component. The slots definition should look similar to the one below, note that the initialization occurs due to the _value_ property:
 
+```JSON
 ...
-"slots": [</div>
-{
-"slotId": "value",
-"type": "string",
-"direction": [</div>
-"input",
-"output"
-      ],
-"value": "The value of my textarea",
-}
+"slots": [
+  {
+    "slotId": "value",
+    "type": "string",
+    "direction": [
+      "input",
+      "output"
+    ],
+    "value": "The value of my textarea",
+  }
 ]
 ...
+```
 
 > Note that these initial values will not be propagated since this initialization is only valid for input slots.
 
@@ -165,15 +167,15 @@ This time, we should just use the component to see the result of defining init v
     <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/webcomponents-lite.js"></script>
     <script>
       window.cubx = {
-          CRCInit: {
-              rootDependencies: [</div>
-{
-                      webpackageId: 'com.incowia.basic-html-components@2.0.0-SNAPSHOT',
-                      artifactId: 'cubx-textarea'  
-}
-              ]  
-}
-};
+        CRCInit: {
+            rootDependencies: [
+              {
+                    webpackageId: 'com.incowia.basic-html-components@2.0.0-SNAPSHOT',
+                    artifactId: 'cubx-textarea'  
+              }
+            ]  
+        }
+      };
     </script>
     <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/crc-loader/js/main.js" data-crcinit-loadcif="true"></script>
 </head>
