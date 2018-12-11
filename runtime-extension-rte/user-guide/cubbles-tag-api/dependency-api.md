@@ -125,7 +125,7 @@ This property is an array of items where each item defines a root dependency hol
     <script>
         window.cubx = {
             CRCInit: {
-                rootDependencies: [</div>
+                rootDependencies: [
                     {
                         webpackageId: 'third-party-pkg@1.0',
                         artifactId: 'second-demo-utility'  

@@ -32,6 +32,18 @@ Now to use these methods you should have our component already working; to aim t
     <title>Interacting with &lt;cubx-textarea&gt;</title>
     <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/custom-elements-es5-adapter.js"></script>
     <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/webcomponents-lite.js"></script>
+    <script>
+      window.cubx = {
+          CRCInit: {
+              rootDependencies: [
+                  {
+                      webpackageId: 'com.incowia.basic-html-components@2.0.0-SNAPSHOT',
+                      artifactId: 'cubx-textarea'  
+                  }
+              ]  
+          }
+      };
+    </script>
     <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/crc-loader/js/main.js" data-crcinit-loadcif="true"></script>
 </head>
 <body>
@@ -98,6 +110,18 @@ The code below follow the indications presented above using our `cubx-textarea` 
 
   <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/custom-elements-es5-adapter.js"></script>
   <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/webcomponents-lite.js"></script>
+  <script>
+      window.cubx = {
+          CRCInit: {
+              rootDependencies: [
+                  {
+                      webpackageId: 'com.incowia.basic-html-components@2.0.0-SNAPSHOT',
+                      artifactId: 'cubx-textarea'  
+                  }
+              ]  
+          }
+      };
+    </script>
   <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/crc-loader/js/main.js" data-crcinit-loadcif="true"></script>
 </head>
 
@@ -167,6 +191,18 @@ The only output slot of our  `cubx-textarea`  component is  _value_. The followi
   <title>Interacting with &lt;cubx-textarea&gt;</title>
   <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/custom-elements-es5-adapter.js"></script>
   <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/webcomponents/webcomponents-lite.js"></script>
+  <script>
+      window.cubx = {
+          CRCInit: {
+              rootDependencies: [
+                  {
+                      webpackageId: 'com.incowia.basic-html-components@2.0.0-SNAPSHOT',
+                      artifactId: 'cubx-textarea'  
+                  }
+              ]  
+          }
+      };
+    </script>
   <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/crc-loader/js/main.js" data-crcinit-loadcif="true"></script>
 </head>
 <body>
