@@ -20,3 +20,4 @@ To make it easier to explain an understand how to interact with a component, we 
 
 * [Interacting with Cubbles from the outside](./outside-interaction.md)
 * [Adding dynamic connections](./dynamic-connections.md)
+* [Interacting with Elementary Cubbles from the inside](./inside-interaction.md)
