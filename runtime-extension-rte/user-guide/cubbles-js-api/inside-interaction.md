@@ -12,7 +12,7 @@ For this tutorial, we will assume that we are developing our `cubx-textarea` com
 
 Our simplified `cubx-textarea` will contain a normal textarea HTML element, which will be manipulated from the logic layer. The view of our elementary looks as follows:
 
-```javascript
+```html
 <template id="cubx-textarea">
     <textarea></textarea>
 </template>
