@@ -23,6 +23,7 @@
     * [The Cubbles mutation based start event API](./runtime-extension-rte/user-guide/mutation-based-start-event/README.md)
     * [FAQs](./runtime-extension-rte/user-guide/faqs/README.md)
       * [How to manually resolve dependency conflicts?](./runtime-extension-rte/user-guide/faqs/manual-conflict-resolution.md)
+      * [How to create a component instance dynamically?](./runtime-extension-rte/user-guide/faqs/dynamic-component-instance.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
