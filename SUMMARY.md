@@ -21,6 +21,7 @@
     * [The Cubbles IFrame API](runtime-extension-rte/user-guide/cubbles-iframe-api/README.md)
       * [The Cubbles IFrame Resizer API](runtime-extension-rte/user-guide/cubbles-iframe-api/cubbles-iframe-resizer.md)
     * [The Cubbles mutation based start event API](./runtime-extension-rte/user-guide/mutation-based-start-event/README.md)
+    * [FAQs](./runtime-extension-rte/user-guide/faqs/README.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
