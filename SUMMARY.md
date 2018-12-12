@@ -26,6 +26,7 @@
       * [How to create a component instance dynamically?](./runtime-extension-rte/user-guide/faqs/dynamic-component-instance.md)
       * [How to render HTML Markup coming from input slot?](./runtime-extension-rte/user-guide/faqs/render-html-code-of-input-slot.md)
       * [How to replace a dependency when declaring a component instance?](./runtime-extension-rte/user-guide/faqs/replace-dep.md)
+      * [How to synchronize multiple dataflows between component instances?](./runtime-extension-rte/user-guide/faqs/synch-dataflow.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
