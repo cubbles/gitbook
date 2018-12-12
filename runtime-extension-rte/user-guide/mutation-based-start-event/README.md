@@ -32,10 +32,10 @@ To use the `mutation-based-cubx-startevent` first we need to:
 
 Lets say we want to observe a div, whose id is _observable_. Also, we want an event called _mutationBasedStart_ to be dispatched when the mutation occurs. Therefore, the values of the `mutation-based-cubx-startevent` attributes should be:
 
-| Attribute | Value |
-|---------------------------|--------------------|
-| data-cubx-target-selector | #observable |
-| data-cubx-emit-event | mutationBasedStart |
+| Attribute                 | Value              |
+| ------------------------- | ------------------ |
+| data-cubx-target-selector | #observable        |
+| data-cubx-emit-event      | mutationBasedStart |
 
 ### The head element
 
@@ -52,16 +52,16 @@ Using the information presented above, the _head_ element of our app should look
             data-cubx-target-selector="#observable"
             data-cubx-emit-event="mutationBasedStart"></script>
     <script>
-      window.cubx = {
+    window.cubx = {
         CRCInit: {
-            rootDependencies: [</div>
-{
+            rootDependencies: [
+                {
                     webpackageId: 'com.incowia.basic-html-components@2.0.0-SNAPSHOT',
                     artifactId: 'cubx-textarea'  
-}
-]
-}
-};
+                }
+            ]
+        }
+    };
     </script>
     <script src="https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT/crc-loader/js/main.js" data-crcinit-loadcif="true" data-cubx-startevent="mutationBasedStart"></script>
 </head>
@@ -127,13 +127,13 @@ Our code should look similar to the one shown below:
             observable.appendChild(createTextareaComponent());
             appendComp.setAttribute('disabled', 'disabled');
             loader.style.display = 'block';
-});
+        });
 
         // Hide the loader and show the observable when the component is ready
         document.addEventListener('cifReady', function () {
             loader.style.display = 'none';
             observable.style.display = 'block';
-});
+        });
 
         // Function to Create the cubx-textarea component using the The Cubbles Tag API.
         function createTextareaComponent() {
@@ -146,7 +146,7 @@ Our code should look similar to the one shown below:
             testTextarea.setAttribute('cubx-webpackage-id', 'com.incowia.basic-html-components@2.0.0-SNAPSHOT');
             testTextarea.appendChild(init);
             return testTextarea;
-}
+        }
 
         // Function to create a cubx-core-slot-init using the The Cubbles Tag API.
         function createSlotInit(slotName, slotValue) {
@@ -154,7 +154,7 @@ Our code should look similar to the one shown below:
             slotInit.setAttribute('slot', slotName);
             slotInit.innerHTML = slotValue;
             return slotInit;
-}
+        }
 })()
 </script>
 ```
@@ -190,7 +190,7 @@ Now we need to style the _loader_ div, so that it looks like a spinner and let t
 }
 ```
 
-## Result
+### Result
 
 The result of the code above should look as follows:
 
