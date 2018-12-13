@@ -22,7 +22,7 @@ The following image  illustrates this process:
 
 ![CIF processing timeline](../../.gitbook/assets/cif-processing.png)
 
-## Process components
+## Components processing
 
 To explain the processing of components, let's assume that we are processing a context that have two root components, an elementary and a compound, as illustrated below:
 
