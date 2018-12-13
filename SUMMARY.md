@@ -27,6 +27,7 @@
       * [How to render HTML Markup coming from input slot?](./runtime-extension-rte/user-guide/faqs/render-html-code-of-input-slot.md)
       * [How to replace a dependency when declaring a component instance?](./runtime-extension-rte/user-guide/faqs/replace-dep.md)
       * [How to synchronize multiple dataflows between component instances?](./runtime-extension-rte/user-guide/faqs/synch-dataflow.md)
+      * [How to handle the copyValue flag for non serializable instances?](./runtime-extension-rte/user-guide/faqs/non-serializable-slot-value.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)

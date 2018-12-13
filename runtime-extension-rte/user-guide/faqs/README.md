@@ -7,3 +7,4 @@ In this section, you will find answers to some of the mos common questions that 
 * [How to render HTML Markup coming from input slot?](./render-html-code-of-input-slot.md)
 * [How to replace a dependency when declaring a component instance?](./replace-dep.md)
 * [How to synchronize multiple dataflows between component instances?](./synch-dataflow.md)
+* [How to handle the copyValue flag for non serializable instances?](./non-serializable-slot-value.md)
