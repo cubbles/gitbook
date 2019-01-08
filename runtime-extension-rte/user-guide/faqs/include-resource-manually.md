@@ -11,7 +11,7 @@ The following steps are to do:
 
 ## Download (and optimize) all resources
 
-If you not want calculate and download all dependencies manuelly,  
+If you not want calculate and download all dependencies manually,  
 you can use the ``cubx-resource-resolver`` npm module for download and put together the single recources. 
 ```
 const ResourceResolver = require('cubx-resource-resolver');
@@ -26,7 +26,7 @@ let baseUrl = 'https://cubbles.world/sandbox';
 
 let promise = resourceResolver.resolve(rootDependencies, outputDir, baseUrl, rootDependencyExcludes)
 ```
-This calculate all nessecary dependencies outgoing from rootDependencies, download the resources of the dependencies and create 4 joined resource files in the output dircetory:
+This calculate all nessecary dependencies outgoing from rootDependencies, download the resources of the dependencies and create the four joined resource files in the output dircetory:
 * html-import-scripts.js (jointed scripts from html-import resources, referenced by html-imports.html)
 * html-imports.html (jointed html-import resources)
 * scripts.js (jointed script resources)
@@ -34,7 +34,7 @@ This calculate all nessecary dependencies outgoing from rootDependencies, downlo
 
 ## Turn off resource injection in RTE
 
-Configure ``disableResourceInjection``, so that the RTE not inject resources automatically.
+Configure ``disableResourceInjection``, so that the RTE not inject resources automatically. 
 ```
 window.cubx = {
     CRCInit: {
@@ -46,7 +46,7 @@ window.cubx = {
 ```
 ## Add the resources manually (after recived "crcBeforeResourceInjection" event)
 
-Register an event handler for the event ``crcBeforeResourceInjection``, If the event recived load all the resources manually 
+Register an event handler for the event ``crcBeforeResourceInjection``. If the event recived, load all the resources manually.
 ```
 document.addEventListener('crcBeforeResourceInjection', function (evt) {
         // add scripts
@@ -71,7 +71,7 @@ document.addEventListener('crcBeforeResourceInjection', function (evt) {
 ```
 ## Fire event "crcDepMgrReady"
 
-After loading all reseources, fire the "crcDepMgrReady" event oder use the method "cubx.CRC#fireDepMgrReadyEvent".
+After loading all resources, fire the "crcDepMgrReady" event oder use the method "cubx.CRC#fireDepMgrReadyEvent".
 ```
 window.cubx.CRC.fireDepMgrReadyEvent();
 ```
