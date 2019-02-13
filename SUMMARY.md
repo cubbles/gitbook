@@ -30,6 +30,7 @@
       * [How to handle the copyValue flag for non serializable instances?](./runtime-extension-rte/user-guide/faqs/non-serializable-slot-value.md)
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
     * [CIF processing](./runtime-extension-rte/contributor-guide/cif-processing.md)
+* [Developing with the coder-template](./developing-coder-template/README.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
     * [Create Cubbles artifacts](coder-devtools-cdt/user-guide/create-artifacts.md)
