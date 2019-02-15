@@ -31,6 +31,7 @@
   * [Contributor guide](runtime-extension-rte/contributor-guide/README.md)
     * [CIF processing](./runtime-extension-rte/contributor-guide/cif-processing.md)
 * [Developing with the coder-template](./developing-coder-template/README.md)
+  * [Creating a new project](./developing-coder-template/creating-project.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
     * [Create Cubbles artifacts](coder-devtools-cdt/user-guide/create-artifacts.md)
