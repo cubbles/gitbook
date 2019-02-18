@@ -25,12 +25,12 @@ In the root of the project, you can find a 'src' folder that contains the source
 The coder-template includes three folders containing sample [artifacts](https://cubbles.gitbook.io/docs/v/coder-template-doc/terms-and-concepts/artifacts):
 
 1. **elem1**: this folder contains an elementary component sample, which includes:
-1. The **element.html** file: it contains the view of the sample elementary.
-2. The **element.js** file: it contains the logic of the sample elementary.
-3. The **element.sss** file: it contains the style of the sample elementary.
-4. The **MANIFEST.elementary.js**: it contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the sample elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but at the end, it should be [Cubbles manifest valid](../terms-and-concepts/artifacts.md#artifact-definition).
-5. The **SHOWROOM.html** file: it contains a demo of the component.
-6. The **webpack.subconfig.js** file: it contains a base webpack config for elementary components.
+   1. The **element.html** file: it contains the view of the sample elementary.
+   2. The **element.js** file: it contains the logic of the sample elementary.
+   3. The **element.sss** file: it contains the style of the sample elementary.
+   4. The **MANIFEST.elementary.js**: it contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the sample elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but at the end, it should be [Cubbles manifest valid](../terms-and-concepts/artifacts.md#artifact-definition).
+   5. The **SHOWROOM.html** file: it contains a demo of the component.
+   6. The **webpack.subconfig.js** file: it contains a base webpack config for elementary components.
 2. **compound1**: this folder contains a compound component sample, which includes the same files of **elem1** folder. But, in this case, **element.js** file only imports the style of the compound. Remember that, compound components have no associated logic.
 3. **utility-green-style**: this folder contains a utility sample. The **c-util.js** and **c-util.sss** are just sample code; in a real case, those should be the files of a library or utility that you want to use.
 
