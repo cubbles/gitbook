@@ -1,6 +1,6 @@
 # Creating a new project
 
-Creating a project using the [code-template](https://github.com/cubbles/coder-template) as boilerplate is a very simple process as illustrated in the image below and detailed in the following sections.
+Creating a project using the [coder-template](https://github.com/cubbles/coder-template) as boilerplate is a very simple process as illustrated in the image below and detailed in the following sections.
 
 ![Steps to create a Cubbles project using the coder-template](../.gitbook/assets/cubbles-with-coder-template.png)
 
@@ -8,9 +8,9 @@ Creating a project using the [code-template](https://github.com/cubbles/coder-te
 
 To create a new Cubbles project, you should clone or download the 'coder-template' from its [repository](https://github.com/cubbles/coder-template), which is an npm based package that uses [webpack](https://webpack.js.org/) as bundler tool. We will create a project called 'my-first-ct-project'. The following code will clone the repository in a folder called as our desired repository:
 
-'''bash
+```bash
 git clone https://github.com/cubbles/coder-template.git my-first-ct-project
-'''
+```
 
 After that, you should have a folder structure like the one below:
 
@@ -28,7 +28,7 @@ The coder-template includes three folders containing sample [artifacts](https://
    1. The **element.html** file: it contains the view of the sample elementary.
    2. The **element.js** file: it contains the logic of the sample elementary.
    3. The **element.sss** file: it contains the style of the sample elementary.
-   4. The **MANIFEST.elementary.js**: it contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the sample elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but at the end, it should be [Cubbles manifest valid](../terms-and-concepts/artifacts.md#artifact-definition).
+   4. The **MANIFEST.elementary.js**: it contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the sample elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but at the end, it should be [Cubbles manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json) valid.
    5. The **SHOWROOM.html** file: it contains a demo of the component.
    6. The **webpack.subconfig.js** file: it contains a base webpack config for elementary components.
 2. **compound1**: this folder contains a compound component sample, which includes the same files of **elem1** folder. But, in this case, **element.js** file only imports the style of the compound. Remember that, compound components have no associated logic.
