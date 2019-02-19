@@ -14,7 +14,7 @@ Additionally, you should edit the following files according to your needs:
 
 ### The **MANIFEST.elementary.js**
 
-It contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but after building, it should be JSON and [Cubbles manifest valid](../terms-and-concepts/artifacts.md#artifact-definition).
+It contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but after building, it should be JSON and [Cubbles manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json) valid.
 
 The following are the valid properties of an elementary manifest definition:
 
@@ -30,7 +30,7 @@ The following are the valid properties of an elementary manifest definition:
 }
 ```
 
-> Check [this](../terms-and-concepts/artifacts.md#artifact-definition) to know the type and structure of values that each property can take.
+> Check [this](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json) to know the type and structure of values that each property can take.
 
 #### About the artifactId
 
@@ -50,7 +50,7 @@ It contains the view of the elementary. You should remove the sample code except
 
 ### The **element.js** file
 
-This file contains the logic of the sample elementary. To define the behavior of an elementary you should use the [CubxComponent](../runtime-extension-rte/user-guide/cubbles-js-api/inside-interaction#the-cubxcomponent-object). The most important step is to define the `is` property of this object using the `artifactId` of the elementary, which is defined automatically during the building process. Then, if you want/need, you can define the life cycle associated methods of an elementary. Also, you may want to add listeners for changes in the slot values and implement additional methods to control the behavior of your elementary.
+This file contains the logic of the sample elementary. To define the behavior of an elementary you should use the [CubxComponent](../runtime-extension-rte/user-guide/cubbles-js-api/inside-interaction.md#the-cubxcomponent-object). The most important step is to define the `is` property of this object using the `artifactId` of the elementary, which is defined automatically during the building process. Then, if you want/need, you can define the life cycle associated methods of an elementary. Also, you may want to add listeners for changes in the slot values and implement additional methods to control the behavior of your elementary.
 
 ```javascript
 // imports
