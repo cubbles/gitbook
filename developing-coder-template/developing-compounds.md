@@ -1,6 +1,8 @@
 # Developing compounds using the coder-template
 
-The easiest way to develop Cubbles compounds is to modify the base sample contained in the coder-template. In this section, we will give you some recommendations to help you with that process.
+The easiest way to develop Cubbles compounds is to modify the base sample contained in the coder-template. In this section, we will give you some recommendations to help you with that process. Below, we present an overview of the development process of a compound:
+
+![Developing a compound with the coder-template](../.gitbook/assets/compound-with-coder-template.png)
 
 ## Prerequisites
 
