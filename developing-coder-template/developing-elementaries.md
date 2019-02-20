@@ -85,7 +85,7 @@ Since the `coder-template` uses [webpack](https://webpack.github.io/) to build a
 
 ### The **element.sss** file
 
-It contains the style of the sample elementary using [sugarss](https://github.com/postcss/sugarss). It could also be a CSS style sheet. As may have noticed, in this sample elementary, this style was imported in the `element.js` file.
+It contains the style of the sample elementary using [sugarss](https://github.com/postcss/sugarss). It could also be a CSS style sheet. As you may have noticed, in this sample elementary, this style was imported in the `element.js` file.
 
 ### The **SHOWROOM.html** file
 
