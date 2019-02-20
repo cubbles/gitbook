@@ -81,7 +81,7 @@ This file contains the logic of the sample elementary. To define the behavior of
 }());
 ```
 
-Since the `coder-template` uses [webpack](https://webpack.github.io/) to build a distribution version of the webpackage and uses [babel-loader](https://webpack.js.org/loaders/babel-loader/) to load javascript files, you can import other scripts and style files.
+Since the `coder-template` uses [webpack](https://webpack.github.io/) to build a distribution version of the webpackage and uses [preprocess-loader](https://www.npmjs.com/package/preprocess-loader) and [babel-loader](https://webpack.js.org/loaders/babel-loader/) to load javascript files, you can import other scripts and style files, which are loaded with [style-loader](https://webpack.js.org/loaders/style-loader/), [css-loader](https://webpack.js.org/loaders/css-loader/) and [postcss-loader](https://webpack.js.org/loaders/postcss-loader/).
 
 ### The **element.sss** file
 
