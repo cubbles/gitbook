@@ -71,4 +71,4 @@ After building your webpackage, the dist version of this file will have a workin
 
 ## Testing your compound
 
-While developing your compound, you can run the `npm run build:dev` command to build a developing dist version of your webpackage, and be able to run `SHOWROOM.html` file to watch your component working.
+While developing your compound, you can run the `npm run build` command to build a developing dist version of your webpackage, and be able to run `SHOWROOM.html` file to watch your component working.
