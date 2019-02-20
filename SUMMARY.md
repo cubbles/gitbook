@@ -33,6 +33,7 @@
 * [Developing with the coder-template](./developing-coder-template/README.md)
   * [Creating a new project](./developing-coder-template/creating-project.md)
   * [Developing elementaries using the coder-template](./developing-coder-template/developing-elementaries.md)
+  * [Developing compounds using the coder-template](./developing-coder-template/developing-compounds.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
     * [Create Cubbles artifacts](coder-devtools-cdt/user-guide/create-artifacts.md)
