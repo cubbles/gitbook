@@ -1,6 +1,8 @@
 # Developing elementaries using the coder-template
 
-The easiest way to develop Cubbles elementaries is to modify the base sample contained in the coder-template. In this section, we will give some recommendations to help you with that process.
+The easiest way to develop Cubbles elementaries is to modify the base sample contained in the coder-template. In this section, we will give some recommendations to help you with that process. Below, we present an overview of the development process of a compound:
+
+![Developing a elementary with the coder-template](../.gitbook/assets/elementary-with-coder-template.png)
 
 ## Prerequisites
 
