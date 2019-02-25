@@ -1,20 +1,20 @@
 # Creating a new project
 
-Creating a project using the [coder-template](https://github.com/cubbles/coder-template) as boilerplate is a very simple process as illustrated in the image below and detailed in the following sections.
+Creating a project using the [vanilla boilerplate](https://github.com/cubblesmasters/vanilla) as boilerplate is a very simple process as illustrated in the image below and detailed in the following sections.
 
-![Steps to create a Cubbles project using the coder-template](../.gitbook/assets/cubbles-with-coder-template.png)
+![Steps to create a Cubbles project using the vanilla boilerplate](../.gitbook/assets/cubbles-with-vanilla-bp.png)
 
-## Cloning the coder-template repository
+## Cloning the vanilla boilerplate repository
 
-To create a new Cubbles project, you should clone or download the 'coder-template' from its [repository](https://github.com/cubbles/coder-template), which is an npm based package that uses [webpack](https://webpack.js.org/) as bundler tool. We will create a project called 'my-first-ct-project'. The following code will clone the repository in a folder called as our desired repository:
+To create a new Cubbles project, you should clone or download the 'vanilla boilerplate' from its [repository](https://github.com/cubblesmasters/vanilla), which is an npm based package that uses [webpack](https://webpack.js.org/) as bundler tool. We will create a project called 'my-first-ct-project'. The following code will clone the repository in a folder called as our desired repository:
 
 ```bash
-git clone https://github.com/cubbles/coder-template.git my-first-ct-project
+git clone https://github.com/cubblesmasters/vanilla.git my-first-ct-project
 ```
 
 After that, you should have a folder structure like the one below:
 
-![coder-template folder structure](../.gitbook/assets/coder-template-folder-structure.png)
+![vanilla boilerplate folder structure](../.gitbook/assets/vanilla-boilerplate-folder-structure.png)
 
 ## Coder-template content
 
@@ -22,7 +22,7 @@ After that, you should have a folder structure like the one below:
 
 In the root of the project, you can find a 'src' folder that contains the source code of the developed artifacts. Also, this folder contains the config files required by webpack to build a distribution version that follows the structure of a [Cubbles webpackage](../terms-and-concepts/webpackage.md).
 
-The coder-template includes three folders containing sample [artifacts](https://cubbles.gitbook.io/docs/v/coder-template-doc/terms-and-concepts/artifacts):
+The vanilla boilerplate includes three folders containing sample [artifacts](../terms-and-concepts/artifacts):
 
 1. **elem1**: this folder contains an elementary component sample, which includes:
    1. The **element.html** file: it contains the view of the sample elementary.
@@ -52,7 +52,7 @@ Also, the root folder contains common config files such as *.gitignore* and *.es
 
 ## Renaming your local webpackage
 
-Now, you need to rename your package, otherwise when you try, for instance, to upload it a webpackage called *cubbles-coder-template* will be uploaded. So, you should open the 'package.json' file and change the name property as desired. Also, you may want to change the version property.
+Now, you need to rename your package, otherwise when you try, for instance, to upload it a webpackage called *cubbles-vanilla-boilerplate* will be uploaded. So, you should open the 'package.json' file and change the name property as desired. Also, you may want to change the version property.
 
 In our case, the name for the package will be 'my-first-ct-project'.
 

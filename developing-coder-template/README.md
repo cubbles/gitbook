@@ -1,3 +1,0 @@
-# Developing Cubbles with the coder-template
-
-In this section, you will learn how to develop Cubbles artifacts using the [coder-template](https://github.com/cubbles/coder-template) boilerplate. In this way, you will be able to develop artifacts using a light-weight *npm scripts* environment. This differs from the [CDT](../coder-devtools-cdt/README.md) based development, which requires a [Yeoman generator](https://cubbles.gitbook.io/docs/v/develop/first-steps/generate-a-project) to start developing and uses *grunt* tasks to create and deploy artifacts.

@@ -1,16 +1,16 @@
-# Developing compounds using the coder-template
+# Developing compounds using the vanilla boilerplate
 
-The easiest way to develop Cubbles compounds is to modify the base sample contained in the coder-template. In this section, we will give you some recommendations to help you with that process. Below, we present an overview of the development process of a compound:
+The easiest way to develop Cubbles compounds is to modify the base sample contained in the vanilla boilerplate. In this section, we will give you some recommendations to help you with that process. Below, we present an overview of the development process of a compound:
 
-![Developing a compound with the coder-template](../.gitbook/assets/compound-with-coder-template.png)
+![Developing a compound with the vanilla boilerplate](../.gitbook/assets/compound-with-vanilla-boilerplate.png)
 
 ## Prerequisites
 
-To start developing Cubbles compounds using the coder-template, this should be cloned locally and all its dependencies should be installed (See [this guide](./creating-project.md) for more information).
+To start developing Cubbles compounds using the vanilla boilerplate, this should be cloned locally and all its dependencies should be installed (See [this guide](./creating-project.md) for more information).
 
 ## Development considerations
 
-The `coder-template` includes a boilerplate for a compound component called `compound1`. A compound component has a manifest definition and optionally a view. You should rename its container folder according to your needs. The name of the folder will be used to set the `artifactId` of your compound in the dist version of the final manifest.
+The `vanilla boilerplate` includes a boilerplate for a compound component called `compound1`. A compound component has a manifest definition and optionally a view. You should rename its container folder according to your needs. The name of the folder will be used to set the `artifactId` of your compound in the dist version of the final manifest.
 
 Additionally, you should edit the following files according to your needs:
 
@@ -41,7 +41,7 @@ The following are the valid properties of an elementary manifest definition:
 
 The `artifactId` of your compound is set automatically during the building process. By default it has the following format: `[webpackageId]-[artifactId]`. The `webpackageId` will be determined from the `name` property of the `package.json` file. And the `artifactId` will be based on the name of the folder that contains the component.
 
-For instance, the artifactId of the `compound1` compound contained in `coder-template` will be `cubbles-coder-template-compound1`, since the `name` property of the `package.json file` is *@cubbles/coder-template* and the container folder is called *compound1*. Note that the special characters (i.e., @ and /) of the name property were removed since `artifactIds` should be valid HTML elements names.
+For instance, the artifactId of the `compound1` compound contained in `vanilla boilerplate` will be `cubbles-vanilla-boilerplate-compound1`, since the `name` property of the `package.json file` is *@cubbles/vanilla boilerplate* and the container folder is called *compound1*. Note that the special characters (i.e., @ and /) of the name property were removed since `artifactIds` should be valid HTML elements names.
 
 ### The **element.html** file
 

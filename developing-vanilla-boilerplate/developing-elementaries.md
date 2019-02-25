@@ -1,16 +1,16 @@
-# Developing elementaries using the coder-template
+# Developing elementaries using the vanilla boilerplate
 
-The easiest way to develop Cubbles elementaries is to modify the base sample contained in the coder-template. In this section, we will give some recommendations to help you with that process. Below, we present an overview of the development process of a compound:
+The easiest way to develop Cubbles elementaries is to modify the base sample contained in the vanilla boilerplate. In this section, we will give some recommendations to help you with that process. Below, we present an overview of the development process of a compound:
 
-![Developing a elementary with the coder-template](../.gitbook/assets/elementary-with-coder-template.png)
+![Developing a elementary with the vanilla boilerplate](../.gitbook/assets/elementary-with-vanilla-boilerplate.png)
 
 ## Prerequisites
 
-To start developing Cubbles elementaries using the coder-template, this should be cloned locally and all dependencies should be installed (See [this guide](./creating-project.md) for more information).
+To start developing Cubbles elementaries using the vanilla boilerplate, this should be cloned locally and all dependencies should be installed (See [this guide](./creating-project.md) for more information).
 
 ## Development considerations
 
-The `coder-template` includes a boilerplate for an elementary component called `elem1`. An elementary component has a manifest definition, a logic, and a view. You should rename this folder according to your needs. The name of the folder will be used to set the `artifactId` of your elementary in the built version of the final manifest.
+The `vanilla boilerplate` includes a boilerplate for an elementary component called `elem1`. An elementary component has a manifest definition, a logic, and a view. You should rename this folder according to your needs. The name of the folder will be used to set the `artifactId` of your elementary in the built version of the final manifest.
 
 Additionally, you should edit the following files according to your needs:
 
@@ -38,7 +38,7 @@ The following are the valid properties of an elementary manifest definition:
 
 The `artifactId` of your elementary is set automatically during the building process. By default it has the following format: `[webpackageId]-[artifactId]`. The `webpackageId` will be determined from the `name` property of the `package.json` file. And the `artifactId` will be based on the name of the folder that contains the component.
 
-For instance, the artifactId of the `elem1` elementary contained in `coder-template` will be `cubbles-coder-template-elem1`, since the `name` property of the `package.json file` is *@cubbles/coder-template* and the container folder is called *elem1*. Note that the special characters (i.e., @ and /) of the name property were removed since `artifactIds` should be valid HTML elements names.
+For instance, the artifactId of the `elem1` elementary contained in `vanilla boilerplate` will be `cubbles-vanilla-boilerplate-elem1`, since the `name` property of the `package.json file` is *@cubbles/vanilla-boilerplate* and the container folder is called *elem1*. Note that the special characters (i.e., @ and /) of the name property were removed since `artifactIds` should be valid HTML elements names.
 
 ### The **element.html** file
 
@@ -83,7 +83,7 @@ This file contains the logic of the sample elementary. To define the behavior of
 }());
 ```
 
-Since the `coder-template` uses [webpack](https://webpack.github.io/) to build a distribution version of the webpackage and uses [preprocess-loader](https://www.npmjs.com/package/preprocess-loader) and [babel-loader](https://webpack.js.org/loaders/babel-loader/) to load javascript files, you can import other scripts and style files, which are loaded with [style-loader](https://webpack.js.org/loaders/style-loader/), [css-loader](https://webpack.js.org/loaders/css-loader/) and [postcss-loader](https://webpack.js.org/loaders/postcss-loader/).
+Since the `vanilla boilerplate` uses [webpack](https://webpack.github.io/) to build a distribution version of the webpackage and uses [preprocess-loader](https://www.npmjs.com/package/preprocess-loader) and [babel-loader](https://webpack.js.org/loaders/babel-loader/) to load javascript files, you can import other scripts and style files, which are loaded with [style-loader](https://webpack.js.org/loaders/style-loader/), [css-loader](https://webpack.js.org/loaders/css-loader/) and [postcss-loader](https://webpack.js.org/loaders/postcss-loader/).
 
 ### The **element.sss** file
 
