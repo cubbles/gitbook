@@ -58,4 +58,4 @@ In our case, the name for the package will be 'my-first-ct-project'.
 
 ## Running 'npm install'
 
-As usual, you should run the `npm install` command to install all the required dependencies of your package. If everything goes well, you will be able to use the available scripts to develop, build, validate and upload your webpackage.
+As usual, you should run the `npm install` command to install all the required dependencies of your package. If everything goes well, you will be able to use the [available scripts](./available-scripts.md) to develop, build, validate and upload your webpackage.
