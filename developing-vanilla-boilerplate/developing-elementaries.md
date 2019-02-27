@@ -97,4 +97,4 @@ After building your webpackage, the dist version of this file will have a workin
 
 While developing your compound, you can run the `npm run build` command to build a developing dist version of your webpackage. Then, you should run the `npm run start` command to start a local web server and be able to run `SHOWROOM.html` file to watch your component working.
 
-For more information about those and other commands, check [this guide]((./available-scripts.md)).
+For more information about those and other commands, check [this guide](./available-scripts.md).
