@@ -34,6 +34,7 @@
   * [Creating a new project](./developing-vanilla-boilerplate/creating-project.md)
   * [Developing elementaries using the vanilla boilerplate](./developing-vanilla-boilerplate/developing-elementaries.md)
   * [Developing compounds using the vanilla boilerplate](./developing-vanilla-boilerplate/developing-compounds.md)
+  * [Using the vanilla boilerplate scripts](./developing-vanilla-boilerplate/available-scripts.md)
 * [Coder devtools - CDT](coder-devtools-cdt/README.md)
   * [User guide](coder-devtools-cdt/user-guide/README.md)
     * [Create Cubbles artifacts](coder-devtools-cdt/user-guide/create-artifacts.md)
