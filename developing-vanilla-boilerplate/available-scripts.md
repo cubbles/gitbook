@@ -32,7 +32,7 @@ $ ntl
 
 ## Building a dist version of your webpackage
 
-TO be able to test a developed artifact you should build a dist version that can be run under the Cubbles platform. That is, it should be within a [webpackage](../terms-and-concepts/webpackage.md) that contains a valid [manifest file](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json). To aim that, you should run one of the building scripts which are:
+TO be able to test a developed artifact you should build a dist version that can be run under the Cubbles platform. That is, it should be within a [webpackage](../terms-and-concepts/webpackage.md) that contains a [valid manifest file](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json). To aim that, you should run one of the building scripts which are:
 
 * **build**: builds a development version of the current webpackage.
 * **build:watch**: builds a development version of the current webpackage, and monitors changes to produce new builds when required.
