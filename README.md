@@ -23,4 +23,3 @@ You can use Cubbles Components e.g. to:
 * Visualize the latest business figures.
 * Include search based information into any pages.
 * Put the same contact formular on multiple pages \(of different webapplications\).
-
