@@ -16,9 +16,9 @@ After that, you should have a folder structure like the one below:
 
 ![vanilla boilerplate folder structure](../.gitbook/assets/vanilla-boilerplate-folder-structure.png)
 
-## Boilerplate content
+### Boilerplate content
 
-### The 'src' folder
+#### The 'src' folder
 
 In the root of the project, you can find a 'src' folder that contains the source code of the developed artifacts. Also, this folder contains the config files required by webpack to build a distribution version that follows the structure of a [Cubbles webpackage](../terms-and-concepts/webpackage.md).
 
@@ -36,25 +36,25 @@ The vanilla boilerplate includes three folders containing sample [artifacts](../
 
 The MANIFEST definition of each artifact in the 'src' folder will be joint to produce a single valid [Cubbles webpackage manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json). The final manifest will be bundled by *webpack* in a 'dist' folder after building the project.
 
-### The 'package.json' file
+#### The 'package.json' file
 
 This is a common npm package definition file. It contains the required dependencies to develop, build, validate and upload Cubbles artifacts. Those tasks can be carried out running the scripts listed in the file using [ntl](https://www.npmjs.com/package/ntl) or simply running the command 'npm run [script-name]'.
 
-### The upload config files
+#### The upload config files
 
 Additionally, there are two upload config files (i.e., 'cubx-uploader-config.json' and 'cubx-uploader-config.dev.json'), one to upload the *production* version of the built webpackage and the other one to upload the *development* version.
 
 In those files, you can define the *url* and *proxy* (if any) of the [base](../terms-and-concepts/base.md) where you desire to upload the webpackage.
 
-### Other config files
+#### Other config files
 
 Also, the root folder contains common config files such as *.gitignore* and *.eslintrc*.
 
-## Renaming your local webpackage
+## Initiliazing your package
 
-Now, you need to rename your package, otherwise when you try, for instance, to upload it a webpackage called *cubbles-vanilla-boilerplate* will be uploaded. So, you should open the 'package.json' file and change the name property as desired. Also, you may want to change the version property.
+Now, you need to initilize your package using the `npm init` command.
 
-In our case, the name for the package will be 'my-first-ct-project'.
+> Remember that the name of the package will be used to generate the `webpackageId` of your webpackage. Which in the sample case would be `my-first-ct-project`.
 
 ## Running 'npm install'
 
