@@ -51,8 +51,8 @@ After building a webpackage, you may want to run it locally. To aim that, you ca
 
 When your webpackage is ready, you may want to upload it to a Cubbles base. There two scripts that you can use for uploading:
 
-* "upload": this script is intended to be used during development. It uploads the webpackage using the configuration defined in `cubx-uploader-config.dev.json` (located at the root of the project). The script offers you the opportunity to build the webpackage using the `build` script.
-* "upload:prod": this script is intended to be used for production. It uploads the webpackage using the configuration defined in `cubx-uploader-config.json` (located at the root of the project). The script offers you the opportunity to build the webpackage using the `build:prod` script.
+* "upload": this script is intended to be used during development. It uploads the webpackage using the configuration defined in the `cubx-uploader-config.dev` property of the `cubbles[cubx-webpackage-uploader]` property of the *package.json* file. The script offers you the opportunity to build the webpackage using the `build` script.
+* "upload:prod": this script is intended to be used for production. It uploads the webpackage using the configuration defined in the `cubx-uploader-config.prod` property of the `cubbles[cubx-webpackage-uploader]` property of the *package.json* file.. The script offers you the opportunity to build the webpackage using the `build:prod` script.
 
 Both scripts run the `validate-manifest` script before trying to upload the webpackage. If the generated manifest is invalid the webpackage would not be uploaded.
 
