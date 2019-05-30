@@ -16,7 +16,7 @@ Additionally, you should edit the following files according to your needs:
 
 ### The **MANIFEST.elementary.js**
 
-It contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but after building, it should be JSON and [Cubbles manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json) valid.
+It contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but after building, it should be JSON and [Cubbles manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=https://raw.githubusercontent.com/cubbles/coder-toolset/develop/packages/webpackage-document-api/lib/jsonSchema/manifestWebpackage-10.1.0.schema.json) valid.
 
 The following are the valid properties of an elementary manifest definition:
 
@@ -32,7 +32,7 @@ The following are the valid properties of an elementary manifest definition:
 }
 ```
 
-> Check [this](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json) to know the type and structure of values that each property can take.
+> Check [this](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=https://raw.githubusercontent.com/cubbles/coder-toolset/develop/packages/webpackage-document-api/lib/jsonSchema/manifestWebpackage-10.1.0.schema.json) to know the type and structure of values that each property can take.
 
 #### About the artifactId
 

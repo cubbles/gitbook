@@ -32,7 +32,7 @@ $ ntl
 
 ## Building a dist version of your webpackage
 
-TO be able to test a developed artifact you should build a dist version that can be run under the Cubbles platform. That is, it should be within a [webpackage](../terms-and-concepts/webpackage.md) that contains a [valid manifest file](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json). To aim that, you should run one of the building scripts which are:
+TO be able to test a developed artifact you should build a dist version that can be run under the Cubbles platform. That is, it should be within a [webpackage](../terms-and-concepts/webpackage.md) that contains a [valid manifest file](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=https://raw.githubusercontent.com/cubbles/coder-toolset/develop/packages/webpackage-document-api/lib/jsonSchema/manifestWebpackage-10.1.0.schema.json). To aim that, you should run one of the building scripts which are:
 
 * **build**: builds a development version of the current webpackage.
 * **build:watch**: builds a development version of the current webpackage, and monitors changes to produce new builds when required.
@@ -70,7 +70,7 @@ You should edit those properties according to your needs.
 
 ## Validating de generated (built) manifest
 
-The manifest of a Cubbles webpackage should be valid according to a JSON schema associated with a model version. Up [RTE@3.0.0](../runtime-extension-rte/README.md) the modelVersion is 10.0.0, whose JSON schema can be explored [online](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json).
+The manifest of a Cubbles webpackage should be valid according to a JSON schema associated with a model version. Up [RTE@3.0.0](../runtime-extension-rte/README.md) the modelVersion is 10.0.0, whose JSON schema can be explored [online](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=https://raw.githubusercontent.com/cubbles/coder-toolset/develop/packages/webpackage-document-api/lib/jsonSchema/manifestWebpackage-10.1.0.schema.json).
 
 If you want to be sure that the generated manifest is valid, you can run the `validate-manifest` script.
 

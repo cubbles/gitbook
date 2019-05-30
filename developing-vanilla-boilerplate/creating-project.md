@@ -28,13 +28,13 @@ The vanilla boilerplate includes three folders containing sample [artifacts](../
    1. The **element.html** file: it contains the view of the sample elementary.
    2. The **element.js** file: it contains the logic of the sample elementary.
    3. The **element.sss** file: it contains the style of the sample elementary.
-   4. The **MANIFEST.elementary.js**: it contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the sample elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but at the end, it should be [Cubbles manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json) valid.
+   4. The **MANIFEST.elementary.js**: it contains only the [manifest definition](../terms-and-concepts/artifacts.md#artifact-definition) of the sample elementary. As you may notice, it is a javascript script; thus, you have more freedom to play with the definition, but at the end, it should be [Cubbles manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=https://raw.githubusercontent.com/cubbles/coder-toolset/develop/packages/webpackage-document-api/lib/jsonSchema/manifestWebpackage-10.1.0.schema.json) valid.
    5. The **SHOWROOM.html** file: it contains a demo of the component.
    6. The **webpack.subconfig.js** file: it contains a base webpack config for elementary components.
 2. **compound1**: this folder contains a compound component sample, which includes the same files of **elem1** folder. But, in this case, **element.js** file only imports the style of the compound. Remember that, compound components have no associated logic.
 3. **utility-green-style**: this folder contains a utility sample. The **c-util.js** and **c-util.sss** are just sample code; in a real case, those should be the files of a library or utility that you want to use.
 
-The MANIFEST definition of each artifact in the 'src' folder will be joint to produce a single valid [Cubbles webpackage manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=master/lib/jsonSchema/manifestWebpackage-10.0.0.schema.json). The final manifest will be bundled by *webpack* in a 'dist' folder after building the project.
+The MANIFEST definition of each artifact in the 'src' folder will be joint to produce a single valid [Cubbles webpackage manifest](http://cubbles.github.io/cubx-webpackage-document-api/schema-explorer.html?schemaPath=https://raw.githubusercontent.com/cubbles/coder-toolset/develop/packages/webpackage-document-api/lib/jsonSchema/manifestWebpackage-10.1.0.schema.json). The final manifest will be bundled by *webpack* in a 'dist' folder after building the project.
 
 #### The 'package.json' file
 
