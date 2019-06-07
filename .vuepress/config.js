@@ -3,7 +3,7 @@ module.exports = {
     themeConfig: {
       logo: '/cubblesLogo.png',
       nav: [
-        { text: 'Cubbles website', link: 'http://cubbles.github.io/' },
+        { text: 'About Cubbles', link: 'http://cubbles.github.io/' },
       ],
       sidebar: [
         '/',
