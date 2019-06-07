@@ -2,6 +2,9 @@ module.exports = {
     title: 'Cubbles Documentation',
     themeConfig: {
       logo: '/cubblesLogo.png',
+      nav: [
+        { text: 'Cubbles website', link: 'http://cubbles.github.io/' },
+      ],
       sidebar: [
         '/',
         {
