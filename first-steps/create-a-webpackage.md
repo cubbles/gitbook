@@ -66,5 +66,5 @@ Hit CTRL-C to stop the server
 
 Then, your default web browser will open the [http://localhost:8282](http://localhost:8282) url and show the root of the project folder. Now you can navigate your webpackage \(same name as given above\). It is provided with an artifact called docs, click on it and you will sea a page that allows you visualize the documentation \(manifest\) of your webpackage.
 
-![Documentation page](../.gitbook/assets/wp-doc.png)
+![Documentation page](../assets/images/wp-doc.png)
 

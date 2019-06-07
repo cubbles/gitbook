@@ -28,7 +28,7 @@ Then, a list of the components of the [current active webpackage](change-active-
 
 A folder called *test* will be generated in the folder of the selected component.
 
-![Component test generated folder](../../.gitbook/assets/component_test_folder.png)
+![Component test generated folder](../../assets/images/component_test_folder.png)
 
 The folder will contain the following files:
 

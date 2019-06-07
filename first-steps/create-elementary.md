@@ -13,7 +13,7 @@ To demonstrate how to create an elementary component using the [Coder DevTools](
 
 We will create an elementary component called _currency-converter_. It is a component that uses [The Free Currency Converter API](https://free.currencyconverterapi.com) to get current and historical foreign exchange rates. This component will have the following interface \(input slots on the left and output slots on the right\):
 
-![currency-converter interface](../.gitbook/assets/elementary_interface.png)
+![currency-converter interface](../assets/images/elementary_interface.png)
 
 ## Create an Elementary Component
 
@@ -36,7 +36,7 @@ Done, without errors.
 
 The grunt task will create some files for our elementary component inside your webpackage folder as follows:
 
-![currency-converter folder structure](../.gitbook/assets/elementary_folder_struct.png)
+![currency-converter folder structure](../assets/images/elementary_folder_struct.png)
 
 The newly created folder contains two folders, one for the generated demo and the other one for the generated documentation. Also, it contains the following three files:
 
@@ -138,7 +138,7 @@ Now you can check the generated documentation of the component \(i.e., the inter
 
 It should look as follows:
 
-![currency-converter generated docs](../.gitbook/assets/elementary_doc.png)
+![currency-converter generated docs](../assets/images/elementary_doc.png)
 
 ### Changing the View of the Elementary \(.html File\)
 
@@ -180,7 +180,7 @@ Now we need to change the template of the component to define the view of our co
 
 To see the result of the las change, check the generated demo page. Note that the local webserver should be running \(See [above](create-elementary.md#check_generated_documentation)\). Navigate to [http://localhost:8282/\[webpackage-name\]/currency-converter/demo/](http://localhost:8282/[webpackage-name]/currency-converter/demo/). You should see a webpage like the one presented below:
 
-![currency-converter demo](../.gitbook/assets/fixer_0.png)
+![currency-converter demo](../assets/images/fixer_0.png)
 
 > Note that the component doesn't do anything because it has no associated behaviour.
 
@@ -333,7 +333,7 @@ The file `currency-converter.js` handles the behaviour of the component when a s
 
 Now if you check the generated demo and click on the `Convert` button, you will see something as follows:
 
-![currency-converter working demo](../.gitbook/assets/fixer_final.png)
+![currency-converter working demo](../assets/images/fixer_final.png)
 
 You can also check the results at the [online demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/currency-converter/demo/index.html).
 

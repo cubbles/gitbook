@@ -70,7 +70,7 @@ To provide those ids you should use the webpackge-id and the artifact-id url par
 
 The result of the code above may look as follows:
 
-![RTE iframe API Demo](../../../.gitbook/assets/iframe-api.png)
+![RTE iframe API Demo](../../../assets/images/iframe-api.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/index.html) to see the result running online.
 
@@ -95,7 +95,7 @@ The `iframe` should look as follows:
 
 The result of the code above may look as follows:
 
-![RTE iframe API Demo](../../../.gitbook/assets/iframe-api-init.png)
+![RTE iframe API Demo](../../../assets/images/iframe-api-init.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/initialized.html) to see the result running online.
 

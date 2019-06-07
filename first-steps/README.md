@@ -8,5 +8,5 @@ Cubbles can act as a visual element of your applications user interface, a funct
 
 In this section you will find the basic information that you need to start using the Cubbles Platform.
 
-![Cubbles platform](../.gitbook/assets/cubbles_platform.png)
+![Cubbles platform](../assets/images/cubbles_platform.png)
 

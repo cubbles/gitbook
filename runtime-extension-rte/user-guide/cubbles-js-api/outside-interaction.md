@@ -166,7 +166,7 @@ The code below follow the indications presented above using our `cubx-textarea` 
 
 #### Result
 
-![Outside interaction demo result](../../../.gitbook/assets/outside-interaction-demo.png)
+![Outside interaction demo result](../../../assets/images/outside-interaction-demo.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/cubbles-js-api-demos/outside-interaction.html) to see the result working online.
 
@@ -234,7 +234,7 @@ The only output slot of our  `cubx-textarea`  component is  _value_. The followi
 
 ### Final Result
 
-![Slot value change interception demo result](../../../.gitbook/assets/slot-value-interception.png).
+![Slot value change interception demo result](../../../assets/images/slot-value-interception.png).
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/cubbles-js-api-demos/slot-change-interception.html) to see the result working online.
 
