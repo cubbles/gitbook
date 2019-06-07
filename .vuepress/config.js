@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/gitbook/',
   title: 'Cubbles Documentation',
   themeConfig: {
     logo: '/cubblesLogo.png',
