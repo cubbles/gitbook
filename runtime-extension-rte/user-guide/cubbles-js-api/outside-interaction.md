@@ -177,11 +177,11 @@ Sometimes it could be useful to detect when the value of an output slot has chan
 1. **slot**: corresponds to the name of the slot whose value has changed
 2. **payload**: corresponds to the new value of the slot
 
-### A working example
+### A working example of interception
 
-The only output slot of our  `cubx-textarea`  component is  _value_. The following example will add a  _<p>_ element showing the  _slot_  and the  _payload_  properties of the event detail each time the  _value_  slot changes its value. Such change can be triggered by just typing within the textarea and then clicking outside, or pressing tab key, etc.
+The only output slot of our  `cubx-textarea`  component is  _value_. The following example will add a  _\<p\>_ element showing the  _slot_  and the  _payload_  properties of the event detail each time the  _value_  slot changes its value. Such change can be triggered by just typing within the textarea and then clicking outside, or pressing tab key, etc.
 
-### Code
+### Code for interception
 
 ```html
 <!DOCTYPE html>
@@ -232,7 +232,7 @@ The only output slot of our  `cubx-textarea`  component is  _value_. The followi
 </html>
 ```
 
-### Result
+### Final Result
 
 ![Slot value change interception demo result](../../../.gitbook/assets/slot-value-interception.png).
 

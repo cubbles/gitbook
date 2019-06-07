@@ -1,8 +1,8 @@
 # Base
 
-The Base is the backend of the Cubbles platform. It provides a repository to manage Cubbles components and services for component upload, replication between multiple Base instances and component delivery to web clients. Base operators can set up any numbers of independent “stores”. Each store can be referred to by a web client \(using the [Cubbles-RTE](runtime-extension-rte/)\).
+The Base is the backend of the Cubbles platform. It provides a repository to manage Cubbles components and services for component upload, replication between multiple Base instances and component delivery to web clients. Base operators can set up any numbers of independent “stores”. Each store can be referred to by a web client \(using the [Cubbles-RTE](../runtime-extension-rte/)\).
 
-![The Cubbles Platform](.gitbook/assets/cubbles_platform.png)
+![The Cubbles Platform](../.gitbook/assets/cubbles_platform.png)
 
 ## Key features
 
@@ -17,5 +17,5 @@ The Base is the backend of the Cubbles platform. It provides a repository to man
 
 The artifact search is an application that allows accessing the artifacts of a store; e.g., the ["shared" store](https://cubbles.world/shared/cubx.core.artifactsearch@1.6.1/artifactsearch/index.html).
 
-![Artifactsearch](.gitbook/assets/cubbles_base.png)
+![Artifactsearch](../.gitbook/assets/cubbles_base.png)
 

@@ -61,7 +61,7 @@ curl -s -X POST -H "Content-type: application/json" https://cubbles.world/_api/a
 
 The response contains an access token. Just use [JWT](https://jwt.io/) to decode it and look at the permissions property to see for which of the passed stores you have rights for, as presented below:
 
-![JWT decoding app](../../.gitbook/assets/image.webp)
+![JWT decoding app](../../.gitbook/assets/image.png)
 
 ## Perform an Upload
 
