@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Cubbles Documentation',
     themeConfig: {
+      logo: '/cubblesLogo.png',
       sidebar: [
         '/',
         {
