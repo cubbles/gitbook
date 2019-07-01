@@ -25,7 +25,7 @@ The `currency-viewer` comprises the following members:
 
 The dataflow of this compound is shown below:
 
-![\`currency-viewer\` dataflow](../../.gitbook/assets/compound_dataflow.png)
+![\`currency-viewer\` dataflow](../../assets/images/compound_dataflow.png)
 
 ### Creation
 
@@ -50,7 +50,7 @@ Done, without errors.
 
 The manifest file is modified automatically to include the new compound component. Also, a folder with the name you specified for the component is created. The folder contains a simple structure as follows.
 
-![\`currency-viewer\` generated folder](../../.gitbook/assets/compound_folder_struct.png)
+![\`currency-viewer\` generated folder](../../assets/images/compound_folder_struct.png)
 
 ### Extending the [`currency-converter`](../create-elementary.md) component
 
@@ -260,7 +260,7 @@ Now you can check the generated demo of the component performing the following s
 
 It should look as follows:
 
-![\`currency-viewer\` generated demo](../../.gitbook/assets/compound_demo.png)
+![\`currency-viewer\` generated demo](../../assets/images/compound_demo.png)
 
 You can also check the results at the [online demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/currency-viewer/demo/index.html).
 

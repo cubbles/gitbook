@@ -6,7 +6,7 @@ You can control the behavior (logic) and view of an elementary component (rememb
 
 For this tutorial, we will assume that we are developing our `cubx-textarea` component, we will explore how to interact with the elementary from the view, the logic and the manifest (See [Create an Elementary Component](https://cubbles.atlassian.net/wiki/spaces/CDT/pages/6422716/Create+an+Elementary+Component)). For the purpose of this tutorial we will assume that the `cubx-textarea` only have one input/output slot called _value_ as illustrated below.
 
-![Interface of the simplified cubx-textarea elementary](../../../.gitbook/assets/simple-cubx-textarea.png)
+![Interface of the simplified cubx-textarea elementary](../../../assets/images/simple-cubx-textarea.png)
 
 ### The view of our simplified cubx-textarea
 
@@ -123,7 +123,7 @@ We will use two instances of the `cubx-textarea` elementary. In this example, we
 
 #### Result
 
-![Simplified cubs-text-area demo](../../../.gitbook/assets/elementary-interaction-demo.png)
+![Simplified cubs-text-area demo](../../../assets/images/elementary-interaction-demo.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/cubbles-js-api-demos/elementary-interaction-demo.html) to see the result working online. *Note that this demo uses the complete version of the cubx-textarea*
 
@@ -188,4 +188,4 @@ This time, we should just use the component to see the result of defining init v
 
 #### Result
 
-![cubx-textarea that was initialized from the manifest](../../../.gitbook/assets/init-elementary-manifest.png)
+![cubx-textarea that was initialized from the manifest](../../../assets/images/init-elementary-manifest.png)

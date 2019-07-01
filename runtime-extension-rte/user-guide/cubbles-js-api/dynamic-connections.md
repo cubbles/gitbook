@@ -154,6 +154,6 @@ In this demo, we have two instances of our `cubx-textarea` component and will co
 
 ### **Result**
 
-![Result of the dynamic connection demo](../../../.gitbook/assets/dyn-con-demo.png)
+![Result of the dynamic connection demo](../../../assets/images/dyn-con-demo.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/cubbles-js-api-demos/dyn-con-demo.html) to see the result working online.
