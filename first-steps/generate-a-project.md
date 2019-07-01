@@ -56,7 +56,7 @@ Now, you should type the project name, e.g. my-first-project and choose the RTE 
 
 This process creates the overall file and folder structure to use the DevTools a follows:
 
-![Cubbles project structure](../.gitbook/assets/project_structure.png)
+![Cubbles project structure](../assets/images/project_structure.png)
 
 When finished you will see the following message:
 

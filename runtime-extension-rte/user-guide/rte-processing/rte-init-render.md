@@ -2,7 +2,7 @@
 
 ## RTE Bootstrap timeline
 
-![RTE Bootstrap timeline](../../../.gitbook/assets/rte-timeline.png)
+![RTE Bootstrap timeline](../../../assets/images/rte-timeline.png)
 
 ## Event API
 

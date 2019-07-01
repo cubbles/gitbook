@@ -194,7 +194,7 @@ Now we need to style the _loader_ div, so that it looks like a spinner and let t
 
 The result of the code above should look as follows:
 
-![Mutation based startevent demo](../../../.gitbook/assets/mutation-based-start-event.png)
+![Mutation based startevent demo](../../../assets/images/mutation-based-start-event.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/mutation-based-startevent-demos/index.html) to see the result working online.
 
@@ -206,6 +206,6 @@ The only thing should do is to append a target node that matches the css selecto
 
 ### A working example
 
-![Mutation based startevent demo with dynamically added target node](../../../.gitbook/assets/mutation-dynamic-target-node.png)
+![Mutation based startevent demo with dynamically added target node](../../../assets/images/mutation-dynamic-target-node.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/mutation-based-startevent-demos/dynamic-target-node.html) to see the result working online.

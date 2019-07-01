@@ -20,13 +20,13 @@ When the CIF starts the following process is carried out:
 
 The following image  illustrates this process:
 
-![CIF processing timeline](../../.gitbook/assets/cif-processing.png)
+![CIF processing timeline](../../assets/images/cif-processing.png)
 
 ## Components processing
 
 To explain the processing of components, let's assume that we are processing a context that have two root components, an elementary and a compound, as illustrated below:
 
-![Components tree example](../../.gitbook/assets/cif-components-example.png)
+![Components tree example](../../assets/images/cif-components-example.png)
 
 To process that tree, the CIF carry the following process out:
 
@@ -52,6 +52,6 @@ Each of the components; i.e., `Elementary1`,  `Elementary2`, `Elementary3`  and 
 
 This process is illustrated below:
 
-![CIF components processing timeline](../../.gitbook/assets/cif-component-processing.png)
+![CIF components processing timeline](../../assets/images/cif-component-processing.png)
 
 > **Hint**: members' elements are created in the order in which they appear in the manifest definition of a compound; or, if a template exists, members are imported and processed in the order in which they appear in the template.

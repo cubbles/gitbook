@@ -2,7 +2,7 @@
 
 Creating a project using the [vanilla boilerplate](https://github.com/cubblesmasters/vanilla) as boilerplate is a very simple process as illustrated in the image below and detailed in the following sections.
 
-![Steps to create a Cubbles project using the vanilla boilerplate](../.gitbook/assets/cubbles-with-vanilla-bp.png)
+![Steps to create a Cubbles project using the vanilla boilerplate](../assets/images/cubbles-with-vanilla-bp.png)
 
 ## Cloning the vanilla boilerplate repository
 
@@ -14,7 +14,7 @@ git clone https://github.com/cubblesmasters/vanilla.git my-first-ct-project
 
 After that, you should have a folder structure like the one below:
 
-![vanilla boilerplate folder structure](../.gitbook/assets/vanilla-boilerplate-folder-structure.png)
+![vanilla boilerplate folder structure](../assets/images/vanilla-boilerplate-folder-structure.png)
 
 ### Boilerplate content
 

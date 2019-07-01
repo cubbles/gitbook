@@ -4,7 +4,7 @@
 
 Composers are component related developers. They can compose \(compound-\) components using any number of existing components. Cubbles provides a Browser-based development environment \(BDE\) for composers.
 
-![Browser-based development environment \(BDE\)](../.gitbook/assets/bde_dataflow_iface-list.png)
+![Browser-based development environment \(BDE\)](../assets/images/bde_dataflow_iface-list.png)
 
 ## Page editor
 

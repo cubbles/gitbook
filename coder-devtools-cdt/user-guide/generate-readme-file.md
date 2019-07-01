@@ -58,7 +58,7 @@ Done, without errors.
 
 A **README.md** file will be generated in the folder of the current webpackage.
 
-![Webpackage folder containing the generated README file](../../.gitbook/assets/readme_file.png)
+![Webpackage folder containing the generated README file](../../assets/images/readme_file.png)
 
 ## The npm module version
 

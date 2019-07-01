@@ -59,6 +59,6 @@ Finally you should:
 
 The _width_ of the iframe will be set to 100%. The _height_ will be set according to the body content of the iframe whenever it changes as shown below.
 
-![RTE iframe Resizer Demo](../../../.gitbook/assets/iframe-resize.png)
+![RTE iframe Resizer Demo](../../../assets/images/iframe-resize.png)
 
 Check [this demo](https://cubbles.world/sandbox/my-first-webpackage@0.1.0-SNAPSHOT/rte-iframe-demo/resizer.html) to see the result running online.

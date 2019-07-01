@@ -210,7 +210,7 @@ Hit CTRL-C to stop the server
 
 Then, navigate to [http://localhost:8282/my-first-webpackage/currency-converter/test/index.html](http://localhost:8282/my-first-webpackage/currency-converter/test/index.html). Wait until the tests are executed. If everything goes well, you should get the following messages:
 
-![Passing tests messages](../../.gitbook/assets/passing_tests.png)
+![Passing tests messages](../../assets/images/passing_tests.png)
 
 ## Check it online
 

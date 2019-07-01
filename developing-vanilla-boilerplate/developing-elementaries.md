@@ -2,7 +2,7 @@
 
 The easiest way to develop Cubbles elementaries is to modify the base sample contained in the vanilla boilerplate. In this section, we will give some recommendations to help you with that process. Below, we present an overview of the development process of a compound:
 
-![Developing a elementary with the vanilla boilerplate](../.gitbook/assets/elementary-with-vanilla-boilerplate.png)
+![Developing a elementary with the vanilla boilerplate](../assets/images/elementary-with-vanilla-boilerplate.png)
 
 ## Prerequisites
 

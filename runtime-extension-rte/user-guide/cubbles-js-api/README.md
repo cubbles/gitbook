@@ -14,7 +14,7 @@ To reproduce any of the tutorials of this section the following prerequisites ap
 
 To make it easier to explain an understand how to interact with a component, we will use the elementary component called  `cubx-textarea`, whose _webpackge-id_ is `com.incowia.basic-html-components@1.0/cubx-textarea`, along all tutorials of this section. This component wraps a `<textarea>` html element to enable its use as component within the Cubbles platform, allowing some of the html attributes of a textarea to be available as slots. The interface view for this component looks as follows:
 
-![Interface of the cubx-textarea component](../../../.gitbook/assets/cubx-textarea.png)
+![Interface of the cubx-textarea component](../../../assets/images/cubx-textarea.png)
 
 ## Tutorials
 
